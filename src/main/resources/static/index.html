@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Assistant</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh; display: flex; align-items: center; justify-content: center;
+        }
+        .chat-app { 
+            width: 100%; max-width: 900px; height: 80vh; background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(20px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.2);
+            display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+        }
+        .header { 
+            padding: 20px; background: rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1);
+            display: flex; align-items: center; gap: 15px;
+        }
+        .avatar { 
+            width: 50px; height: 50px; background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-size: 24px; color: white;
+        }
+        .header-text h1 { color: white; font-size: 24px; font-weight: 600; }
+        .header-text p { color: rgba(255,255,255,0.7); font-size: 14px; }
+        .chat-container { 
+            flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; gap: 15px;
+        }
+        .message { 
+            max-width: 70%; padding: 15px 20px; border-radius: 20px; animation: slideIn 0.3s ease;
+            word-wrap: break-word; line-height: 1.5;
+        }
+        .user { 
+            background: linear-gradient(135deg, #667eea, #764ba2); color: white;
+            align-self: flex-end; border-bottom-right-radius: 5px;
+        }
+        .ai { 
+            background: rgba(255,255,255,0.9); color: #333;
+            align-self: flex-start; border-bottom-left-radius: 5px;
+        }
+        .input-container { 
+            padding: 20px; background: rgba(255,255,255,0.1); border-top: 1px solid rgba(255,255,255,0.1);
+            display: flex; gap: 15px; align-items: center;
+        }
+        input { 
+            flex: 1; padding: 15px 20px; background: rgba(255,255,255,0.9); border: none;
+            border-radius: 25px; font-size: 16px; outline: none; color: #333;
+        }
+        input::placeholder { color: #666; }
+        button { 
+            padding: 15px 25px; background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; border: none; border-radius: 25px; cursor: pointer;
+            font-weight: 600; transition: all 0.3s ease; font-size: 16px;
+        }
+        button:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        button:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+        .typing { 
+            display: none; align-items: center; gap: 10px; color: rgba(255,255,255,0.7);
+            font-style: italic; padding: 10px 20px;
+        }
+        .dots { display: flex; gap: 3px; }
+        .dot { width: 6px; height: 6px; background: rgba(255,255,255,0.7); border-radius: 50%; animation: bounce 1.4s infinite; }
+        .dot:nth-child(2) { animation-delay: 0.2s; }
+        .dot:nth-child(3) { animation-delay: 0.4s; }
+        @keyframes slideIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
+        @media (max-width: 768px) {
+            .chat-app { height: 100vh; border-radius: 0; }
+            .message { max-width: 85%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-app">
+        <div class="header">
+            <div class="avatar">🤖</div>
+            <div class="header-text">
+                <h1>AI Assistant</h1>
+                <p>Powered by Samar Dash &bull; Always here to help</p>
+            </div>
+        </div>
+        <div id="chat" class="chat-container"></div>
+        <div class="typing" id="typing">
+            <span>AI is typing</span>
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="messageInput" placeholder="Ask me anything..." maxlength="100">
+            <button onclick="sendMessage()" id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chat = document.getElementById('chat');
+        const input = document.getElementById('messageInput');
+        const sendBtn = document.getElementById('sendBtn');
+        const typing = document.getElementById('typing');
+
+        function addMessage(text, isUser) {
+            const div = document.createElement('div');
+            div.className = `message ${isUser ? 'user' : 'ai'}`;
+            div.textContent = text;
+            chat.appendChild(div);
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function showTyping() {
+            typing.style.display = 'flex';
+            chat.scrollTop = chat.scrollHeight;
+        }
+
+        function hideTyping() {
+            typing.style.display = 'none';
+        }
+
+        async function sendMessage() {
+            const message = input.value.trim();
+            if (!message) return;
+
+            addMessage(message, true);
+            input.value = '';
+            sendBtn.disabled = true;
+            sendBtn.textContent = 'Sending...';
+            showTyping();
+
+            try {
+                const response = await fetch(`/api/v1/generate?message=${encodeURIComponent(message)}`);
+                const aiResponse = await response.text();
+                hideTyping();
+                setTimeout(() => addMessage(aiResponse, false), 500);
+            } catch (error) {
+                hideTyping();
+                addMessage('Unable to get response. Please try again.', false);
+            }
+
+            sendBtn.disabled = false;
+            sendBtn.textContent = 'Send';
+            input.focus();
+        }
+
+        input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !sendBtn.disabled) sendMessage();
+        });
+
+        // Welcome message
+        setTimeout(() => {
+            addMessage('Hello! I am your AI assistant. Created by Samar Dash. Ask me anything!', false);
+        }, 1000);
+
+        input.focus();
+    </script>
+</body>
+</html>
