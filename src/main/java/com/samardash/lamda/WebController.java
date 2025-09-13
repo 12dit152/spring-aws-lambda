@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WebController {
 
-    @GetMapping("/")
+    @GetMapping("/chat")
     public String index() {
         return "index.html";
     }
