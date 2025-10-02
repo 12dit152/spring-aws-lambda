@@ -20,13 +20,13 @@ public class LambdaController {
         log.info("Received request for /hello endpoint");
 
         ObjectNode response = objectMapper.createObjectNode();
-        response.put("Message", "Hello from AWS Lambda");
-        response.put("Developer", "Samar Dash");
         response.put("Version", "1.0.0");
-        response.put("Home Page", "https://samardash.com");
-        response.put("Href", "https://api.samardash.com/api/v1/hello");
-        response.put("Flow", "API Gateway -> Lambda -> Spring Boot");
-        response.put("Notes", "This is a sample Spring Boot application running on AWS Serverless environment.");
+        response.put("Developer", "Samar Dash");
+        response.put("Message", "Hello from AWS Lambda");
+        response.put("Home", "https://samardash.com");
+        response.put("URI", "https://api.samardash.com/api/v1/hello");
+        response.put("Sequence", "Route 53 -> API Gateway -> Lambda -> Spring Boot");
+        response.put("Description", "This is a sample Spring Boot application running on AWS Serverless environment.");
 
         log.debug("Response: {}", response);
         return response.toPrettyString();

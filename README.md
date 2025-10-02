@@ -72,20 +72,21 @@ This project demonstrates how to run a modern Spring Boot application as a serve
 
 3. **Deploy to AWS Lambda**
    - Upload the shaded JAR from `target/` to your Lambda function.
-   - Set the handler to:  
-     ```
-     com.samardash.lamda.LambdaHandler
-     ```
-
-4. **API Gateway & Custom Domain**
-   - Connect your Lambda to API Gateway.
-   - Set up a custom domain in API Gateway.
-   - Create an **A record** in Route 53 pointing to your API Gateway domain.
 
 ---
 
-## 📝 Example Lambda Event
+## 🔀 Deployment Options
 
+### Option 1: AWS API Gateway (Default)
+
+**Handler:** `com.samardash.lamda.LambdaHandler`
+
+**Setup:**
+1. Connect your Lambda to API Gateway
+2. Set up custom domain in API Gateway
+3. Create A record in Route 53
+
+**Sample Test Event:**
 ```json
 {
   "resource": "/{proxy+}",
@@ -94,9 +95,120 @@ This project demonstrates how to run a modern Spring Boot application as a serve
   "headers": {
     "Accept": "application/json"
   },
+  "queryStringParameters": null,
   "body": null,
-  "isBase64Encoded": false
+  "isBase64Encoded": false,
+  "requestContext": {
+    "stage": "dev",
+    "requestId": "test-request-id"
+  }
 }
+```
+
+### Option 2: Kong Gateway (Direct)
+
+**Handler:** `com.samardash.lamda.KongLambdaHandler`
+
+**Kong Configuration:**
+```yaml
+services:
+- name: lambda-service
+  url: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/your-function/invocations
+  
+routes:
+- name: lambda-route
+  service: lambda-service
+  paths:
+  - /api/v1/hello
+
+plugins:
+- name: aws-lambda
+  service: lambda-service
+  config:
+    aws_key: your-aws-key
+    aws_secret: your-aws-secret
+    aws_region: us-east-1
+    function_name: your-function-name
+```
+
+**Sample Kong Event:**
+```json
+{
+  "request": {
+    "method": "GET",
+    "uri": "/api/v1/hello",
+    "headers": {
+      "accept": "application/json"
+    }
+  }
+}
+```
+
+### Option 3: Kong Gateway with API Gateway Compatibility
+
+**Handler:** `com.samardash.lamda.LambdaHandler` (same as Option 1)
+
+**Kong Configuration with Request Transformer:**
+```yaml
+services:
+- name: lambda-service
+  url: https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/your-function/invocations
+
+routes:
+- name: lambda-route
+  service: lambda-service
+  paths:
+  - /api/v1/hello
+
+plugins:
+- name: request-transformer
+  service: lambda-service
+  config:
+    add:
+      body:
+      - 'httpMethod:$(request.method)'
+      - 'path:$(request.uri)'
+      - 'headers:$(request.headers)'
+      - 'queryStringParameters:$(request.query_params)'
+      - 'body:$(request.body)'
+      - 'isBase64Encoded:false'
+      - 'requestContext.stage:prod'
+    
+- name: aws-lambda
+  service: lambda-service
+  config:
+    aws_key: your-aws-key
+    aws_secret: your-aws-secret
+    aws_region: us-east-1
+    function_name: your-function-name
+    forward_request_method: true
+    forward_request_uri: true
+    forward_request_headers: true
+```
+
+**Benefits of Option 3:**
+- Uses existing `LambdaHandler` (no code changes)
+- Kong transforms requests to API Gateway format
+- Full compatibility with Spring Boot serverless container
+
+---
+
+---
+
+## 🧪 Testing
+
+**Local Testing:**
+```bash
+mvn spring-boot:run
+curl http://localhost:8080/api/v1/hello
+```
+
+**Lambda Console Testing:**
+Use the sample events above in AWS Lambda console test function.
+
+**Kong Testing:**
+```bash
+curl -X GET http://your-kong-gateway/api/v1/hello
 ```
 
 ---
