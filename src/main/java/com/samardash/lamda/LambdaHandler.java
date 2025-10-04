@@ -6,6 +6,7 @@ import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
+import org.slf4j.MDC;
 
 public class LambdaHandler implements RequestHandler<AwsProxyRequest, AwsProxyResponse> {
     private static final SpringBootLambdaContainerHandler<AwsProxyRequest, AwsProxyResponse> handler;
@@ -20,6 +21,12 @@ public class LambdaHandler implements RequestHandler<AwsProxyRequest, AwsProxyRe
 
     @Override
     public AwsProxyResponse handleRequest(AwsProxyRequest input, Context context) {
-        return handler.proxy(input, context);
+        // Set AWS request ID in MDC for correlation with AWS logs
+        MDC.put("Request-ID", context.getAwsRequestId());
+        try {
+            return handler.proxy(input, context);
+        } finally {
+            MDC.clear();
+        }
     }
 }
