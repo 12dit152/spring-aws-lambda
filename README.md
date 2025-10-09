@@ -86,7 +86,9 @@ This project demonstrates how to run a modern Spring Boot application as a serve
 2. Set up custom domain in API Gateway
 3. Create A record in Route 53
 
-**Sample Test Event:**
+**Sample Test Events:**
+
+*GET /api/v1/hello:*
 ```json
 {
   "resource": "/{proxy+}",
@@ -102,6 +104,36 @@ This project demonstrates how to run a modern Spring Boot application as a serve
     "stage": "dev",
     "requestId": "test-request-id"
   }
+}
+```
+
+*POST /api/v1/post:*
+```json
+{
+  "resource": "/api/v1/post",
+  "path": "/api/v1/post",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "User-Agent": "Testing Agent"
+  },
+  "queryStringParameters": {
+    "query": "test-query-value"
+  },
+  "multiValueQueryStringParameters": {
+    "query": ["test-query-value"]
+  },
+  "requestContext": {
+    "httpMethod": "POST",
+    "requestId": "test-request-123",
+    "stage": "dev",
+    "identity": {
+      "sourceIp": "127.0.0.1",
+      "userAgent": "userAgent-2"
+    }
+  },
+  "body": "{\"message\":\"Hello from test\"}",
+  "isBase64Encoded": false
 }
 ```
 
@@ -131,7 +163,9 @@ plugins:
     function_name: your-function-name
 ```
 
-**Sample Kong Event:**
+**Sample Kong Events:**
+
+*GET /api/v1/hello:*
 ```json
 {
   "request": {
@@ -140,6 +174,21 @@ plugins:
     "headers": {
       "accept": "application/json"
     }
+  }
+}
+```
+
+*POST /api/v1/post:*
+```json
+{
+  "request": {
+    "method": "POST",
+    "uri": "/api/v1/post?query=test-query-value",
+    "headers": {
+      "content-type": "application/json",
+      "user-agent": "Testing Agent"
+    },
+    "body": "{\"message\":\"Hello from test\"}"
   }
 }
 ```
