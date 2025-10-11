@@ -1,21 +1,24 @@
 package com.samardash.lamda;
 
-import com.amazonaws.serverless.proxy.model.AwsProxyRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.core.env.Environment;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.Field;
 import java.util.Collections;
-import java.util.Enumeration;
 
 @Slf4j
 @RestController
+@AllArgsConstructor
 @RequestMapping("/api/v1/")
 public class LambdaController {
+
+    private final Environment environment;
+    private final LambdaService lambdaService;
 
     @RequestMapping(value = "/hello", produces = MediaType.APPLICATION_JSON_VALUE)
     public String hello(ObjectMapper objectMapper) {
@@ -26,40 +29,50 @@ public class LambdaController {
         response.put("Developer", "Samar Dash");
         response.put("Message", "Hello from AWS Lambda");
         response.put("Home", "https://samardash.com");
-        response.put("URI", "https://api.samardash.com/api/v1/hello");
+        response.put("Href", "https://api.samardash.com/api/v1/hello");
         response.put("Sequence", "Route 53 -> API Gateway -> Lambda -> Spring Boot");
         response.put("Description", "This is a sample Spring Boot application running on AWS Serverless environment.");
+        response.put("Environment", String.join(",", environment.getActiveProfiles()));
 
         log.debug("Response: {}", response);
         return response.toPrettyString();
     }
 
     @PostMapping(value = "/post", produces = MediaType.APPLICATION_JSON_VALUE)
-    public Object post(HttpServletRequest request, @RequestParam String query, @RequestBody String body) {
+    public Object post(HttpServletRequest request, @RequestParam(required = false) String query, @RequestBody(required = false) String body, ObjectMapper objectMapper) {
         log.info("Received request for /post endpoint");
-        log.info("Query Parameter :-> {}", query);
-        log.info("Request Body :-> {}", body);
-        log.info("Total headers found: {}", Collections.list(request.getHeaderNames()).size());
-
-        // For localhost http header iteration
-        Enumeration<String> headerNames = request.getHeaderNames();
-        while (headerNames.hasMoreElements()) {
-            String header = headerNames.nextElement();
-            log.info("Local Header :-> {} -> {}", header, request.getHeader(header));
+        lambdaService.logBackendDetails();
+        
+        ObjectNode response = objectMapper.createObjectNode();
+        
+        // Add query parameters
+        ObjectNode args = objectMapper.createObjectNode();
+        if (query != null) {
+            args.put("query", query);
         }
-
-        // Try reflection to access the underlying AWS event
-        try {
-            Field eventField = request.getClass().getDeclaredField("awsProxyRequest");
-            eventField.setAccessible(true);
-            AwsProxyRequest awsEvent = (AwsProxyRequest) eventField.get(request);
-            awsEvent.getHeaders().forEach((header, value) ->
-                    log.info("AWS Header :-> {} -> {}", header, value));
-        } catch (Exception e) {
-            log.warn("Could not access AWS headers: {}", e.getMessage());
+        response.set("args", args);
+        
+        // Add headers
+        ObjectNode headers = objectMapper.createObjectNode();
+        Collections.list(request.getHeaderNames()).forEach(header ->
+                headers.put(header, request.getHeader(header)));
+        response.set("headers", headers);
+        
+        // Add request details
+        response.put("origin", request.getRemoteAddr());
+        response.put("url", request.getRequestURL().toString());
+        response.put("environment", String.join(",", environment.getActiveProfiles()));
+        
+        // Add body if present
+        if (body != null && !body.trim().isEmpty()) {
+            try {
+                response.set("json", objectMapper.readTree(body));
+            } catch (Exception e) {
+                response.put("data", body);
+            }
         }
-
-        return body;
+        
+        return response;
     }
 
 }

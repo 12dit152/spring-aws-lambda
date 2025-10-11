@@ -23,10 +23,6 @@ public class LambdaHandler implements RequestHandler<AwsProxyRequest, AwsProxyRe
     public AwsProxyResponse handleRequest(AwsProxyRequest input, Context context) {
         // Set AWS request ID in MDC for correlation with AWS logs
         MDC.put("Request-ID", context.getAwsRequestId());
-        try {
-            return handler.proxy(input, context);
-        } finally {
-            MDC.clear();
-        }
+        return handler.proxy(input, context);
     }
 }

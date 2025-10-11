@@ -25,6 +25,7 @@
         <lombok.version>1.18.36</lombok.version>
         <aws-serverless-java-container-springboot3.version>2.1.0</aws-serverless-java-container-springboot3.version>
         <aws-lambda-java-core.version>1.2.3</aws-lambda-java-core.version>
+        <spring-cloud-aws.version>3.4.0</spring-cloud-aws.version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>
@@ -51,6 +57,12 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.awspring.cloud</groupId>
+            <artifactId>spring-cloud-aws-starter-parameter-store</artifactId>
+            <version>${spring-cloud-aws.version}</version>
         </dependency>
 
     </dependencies>
