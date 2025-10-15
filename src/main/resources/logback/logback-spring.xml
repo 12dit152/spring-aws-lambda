@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <springProfile name="local">
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+                <jsonGeneratorDecorator class="net.logstash.logback.decorate.PrettyPrintingJsonGeneratorDecorator"/>
+                <providers>
+                    <timestamp>
+                        <fieldName>timestamp</fieldName>
+                    </timestamp>
+                    <logLevel/>
+                    <loggerName>
+                        <fieldName>className</fieldName>
+                    </loggerName>
+                    <message/>
+                    <mdc/>
+                </providers>
+            </encoder>
+        </appender>
+    </springProfile>
+
+    <springProfile name="!local">
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+                <providers>
+                    <timestamp>
+                        <fieldName>timestamp</fieldName>
+                    </timestamp>
+                    <logLevel/>
+                    <loggerName>
+                        <fieldName>className</fieldName>
+                    </loggerName>
+                    <message/>
+                    <mdc/>
+                </providers>
+            </encoder>
+        </appender>
+    </springProfile>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

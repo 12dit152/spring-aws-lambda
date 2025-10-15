@@ -9,6 +9,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.Collections;
 
 @Slf4j
@@ -19,10 +20,20 @@ public class LambdaController {
 
     private final Environment environment;
     private final LambdaService lambdaService;
+    private final StatsLogger statsLogger;
+    private final EventLogger eventLogger;
 
     @RequestMapping(value = "/hello", produces = MediaType.APPLICATION_JSON_VALUE)
     public String hello(ObjectMapper objectMapper) {
         log.info("Received request for /hello endpoint");
+        
+        // Add custom stats data
+        statsLogger.addData("environment", Arrays.toString(environment.getActiveProfiles()));
+
+        // Example EventLogger usage
+        eventLogger.startEvent("HelloService");
+        eventLogger.addEventData("HelloService", "operation", "GET");
+        eventLogger.addEventData("HelloService", "httpCode", "200");
 
         ObjectNode response = objectMapper.createObjectNode();
         response.put("Version", "1.0.0");
@@ -34,6 +45,7 @@ public class LambdaController {
         response.put("Description", "This is a sample Spring Boot application running on AWS Serverless environment.");
         response.put("Environment", String.join(",", environment.getActiveProfiles()));
 
+        eventLogger.endEvent("HelloService", EventLogger.EventStatus.SUCCESS);
         log.debug("Response: {}", response);
         return response.toPrettyString();
     }
