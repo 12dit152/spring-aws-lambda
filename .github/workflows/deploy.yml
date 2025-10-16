@@ -1,3 +1,39 @@
+name: Build and Upload JAR to S3 (OIDC)
+
+on:
+  push:
+    branches: [ main ]  # runs when you push to main branch
+
 permissions:
-  id-token: write   # Required for OIDC
-  contents: read    # To checkout the repo
+  id-token: write        # required for OIDC
+  contents: read         # allows checkout
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: maven
+
+      - name: Build the JAR
+        run: mvn clean package -DskipTests
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::897729105223:role/GitHubOIDCDeployRole
+          aws-region: eu-west-1
+
+      - name: Upload to S3
+        run: |
+          JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
+          cp target/spring-lambda-hello-1.0.0-SNAPSHOT.jar target/$JAR_NAME
+          aws s3 cp target/$JAR_NAME s3://maven-releases-897729105223-eu-west-1/builds/
