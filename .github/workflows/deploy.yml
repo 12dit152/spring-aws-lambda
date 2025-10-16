@@ -1,0 +1,3 @@
+permissions:
+  id-token: write   # Required for OIDC
+  contents: read    # To checkout the repo
