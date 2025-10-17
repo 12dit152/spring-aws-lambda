@@ -45,7 +45,8 @@ jobs:
 
       - name: Deploy to Lambda
         run: |
+          JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
           aws lambda update-function-code \
             --function-name spring-lambda-hello \
             --s3-bucket maven-releases-897729105223-eu-west-1 \
-            --s3-key spring-lambda-hello-${{ github.run_number }}.jar
+            --s3-key builds/$JAR_NAME
