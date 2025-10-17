@@ -1,4 +1,4 @@
-name: Build and Upload JAR to S3 (OIDC)
+name: Build and Upload JAR to S3 (OIDC), Deploy to Lambda
 
 on:
   push:
