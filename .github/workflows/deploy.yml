@@ -2,7 +2,10 @@ name: Build and Upload JAR to S3 (OIDC)
 
 on:
   push:
-    branches: [ main ]  # runs when you push to main branch
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'pom.xml'
 
 permissions:
   id-token: write        # required for OIDC
