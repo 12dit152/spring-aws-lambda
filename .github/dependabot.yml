@@ -1,7 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "maven"     # or npm, gradle, etc.
-    directory: "/"                 # where pom.xml is located
+  - package-ecosystem: "maven"
+    directory: "/"
     schedule:
-      interval: "weekly"           # daily | weekly | monthly
-    open-pull-requests-limit: 5    # optional limit
+      interval: "weekly"
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
