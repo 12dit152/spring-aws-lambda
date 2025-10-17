@@ -14,6 +14,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # if: "!contains(github.event.head_commit.message, 'dependabot')"
 
     steps:
       - name: Checkout source
@@ -40,3 +41,10 @@ jobs:
           JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
           cp target/spring-lambda-hello-1.0.0-SNAPSHOT.jar target/$JAR_NAME
           aws s3 cp target/$JAR_NAME s3://maven-releases-897729105223-eu-west-1/builds/
+
+      - name: Deploy to Lambda
+        run: |
+          aws lambda update-function-code \
+            --function-name spring-lambda-hello \
+            --s3-bucket maven-releases-897729105223-eu-west-1 \
+            --s3-key spring-lambda-hello-${{ github.run_number }}.jar
