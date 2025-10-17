@@ -6,6 +6,7 @@ on:
     paths:
       - 'src/**'
       - 'pom.xml'
+  workflow_dispatch:  # enables manual trigger
 
 permissions:
   id-token: write        # required for OIDC
