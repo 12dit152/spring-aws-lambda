@@ -1,6 +1,5 @@
 package com.samardash.lamda;
 
-// Fixed test-events.json for deployment validation
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import jakarta.servlet.http.HttpServletRequest;
