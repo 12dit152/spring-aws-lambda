@@ -51,6 +51,10 @@ jobs:
             --s3-bucket maven-releases-897729105223-eu-west-1 \
             --s3-key builds/$JAR_NAME
           
+          # Wait for function update to complete
+          aws lambda wait function-updated \
+            --function-name spring-lambda-hello
+          
           # Publish new version
           VERSION=$(aws lambda publish-version \
             --function-name spring-lambda-hello \
