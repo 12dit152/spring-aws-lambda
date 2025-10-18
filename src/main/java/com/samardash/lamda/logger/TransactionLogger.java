@@ -1,4 +1,4 @@
-package com.samardash.lamda;
+package com.samardash.lamda.logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.FilterChain;
