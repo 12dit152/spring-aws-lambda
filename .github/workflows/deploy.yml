@@ -82,8 +82,23 @@ jobs:
             exit 1
           fi
 
-      - name: Cleanup old JAR files (keep latest 2)
+      - name: Cleanup old versions and JARs
         run: |
+          # Cleanup old Lambda versions (keep latest 2 numbered versions)
+          aws lambda list-versions-by-function \
+            --function-name spring-lambda-hello \
+            --query 'Versions[?Version!=`$LATEST`].Version' \
+            --output text | \
+          tr '\t' '\n' | \
+          sort -nr | \
+          tail -n +3 | \
+          while read version; do
+            echo "Deleting Lambda version: $version"
+            aws lambda delete-function \
+              --function-name spring-lambda-hello:$version
+          done
+          
+          # Cleanup old JAR files (keep latest 2)
           aws s3api list-objects-v2 \
             --bucket maven-releases-897729105223-eu-west-1 \
             --prefix builds/spring-lambda-hello- \
