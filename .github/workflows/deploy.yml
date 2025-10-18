@@ -43,13 +43,19 @@ jobs:
           cp target/spring-lambda-hello-1.0.0-SNAPSHOT.jar target/$JAR_NAME
           aws s3 cp target/$JAR_NAME s3://maven-releases-897729105223-eu-west-1/builds/
 
-      - name: Deploy to Lambda
+      - name: Deploy Lambda with Validation
         run: |
           JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
+          
+          # Update function code
           aws lambda update-function-code \
             --function-name spring-lambda-hello \
             --s3-bucket maven-releases-897729105223-eu-west-1 \
             --s3-key builds/$JAR_NAME
+          
+          # Wait for update to complete
+          aws lambda wait function-updated \
+            --function-name spring-lambda-hello
           
           # Publish new version
           VERSION=$(aws lambda publish-version \
@@ -57,14 +63,47 @@ jobs:
             --description "Build ${{ github.run_number }}" \
             --query 'Version' --output text)
           
-          # Update dev alias to point to new version
-          aws lambda update-alias \
-            --function-name spring-lambda-hello \
-            --name dev \
-            --function-version $VERSION
+          # Wait for version to be active
+          aws lambda wait function-active-v2 \
+            --function-name spring-lambda-hello:$VERSION
+          
+          # Test the new version
+          aws lambda invoke \
+            --function-name spring-lambda-hello:$VERSION \
+            --cli-binary-format raw-in-base64-out \
+            --payload '{"resource":"/api/v1/hello","path":"/api/v1/hello","httpMethod":"GET","requestContext":{"resourcePath":"/api/v1/hello","httpMethod":"GET","requestId":"test-123","identity":{"sourceIp":"127.0.0.1"}},"isBase64Encoded":false}' \
+            response.json
+          
+          # Only if test passes, update alias
+          if [ $? -eq 0 ]; then
+            echo "Version $VERSION validation passed, updating alias..."
+            aws lambda update-alias \
+              --function-name spring-lambda-hello \
+              --name dev \
+              --function-version $VERSION
+            echo "Deployed version $VERSION to dev alias"
+          else
+            echo "Version $VERSION failed validation"
+            exit 1
+          fi
 
-      - name: Cleanup old JAR files (keep latest 2)
+      - name: Cleanup old versions and JARs
         run: |
+          # Cleanup old Lambda versions (keep latest 2 numbered versions)
+          aws lambda list-versions-by-function \
+            --function-name spring-lambda-hello \
+            --query 'Versions[?Version!=`$LATEST`].Version' \
+            --output text | \
+          tr '\t' '\n' | \
+          sort -nr | \
+          tail -n +3 | \
+          while read version; do
+            echo "Deleting Lambda version: $version"
+            aws lambda delete-function \
+              --function-name spring-lambda-hello:$version
+          done
+          
+          # Cleanup old JAR files (keep latest 2)
           aws s3api list-objects-v2 \
             --bucket maven-releases-897729105223-eu-west-1 \
             --prefix builds/spring-lambda-hello- \
