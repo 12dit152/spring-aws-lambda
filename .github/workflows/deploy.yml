@@ -66,6 +66,7 @@ jobs:
           # Test the new version
           aws lambda invoke \
             --function-name spring-lambda-hello:$VERSION \
+            --cli-binary-format raw-in-base64-out \
             --payload '{"resource":"/api/v1/hello","path":"/api/v1/hello","httpMethod":"GET","requestContext":{"resourcePath":"/api/v1/hello","httpMethod":"GET","requestId":"test-123","identity":{"sourceIp":"127.0.0.1"}},"isBase64Encoded":false}' \
             response.json
           
