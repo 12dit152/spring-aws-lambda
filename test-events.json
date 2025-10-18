@@ -1,0 +1,27 @@
+{
+  "resource": "/api/v1/hello",
+  "path": "/api/v1/hello",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "application/json"
+  },
+  "multiValueHeaders": {},
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "abc123",
+    "resourcePath": "/api/v1/hello",
+    "httpMethod": "GET",
+    "requestId": "test-123",
+    "protocol": "HTTP/1.1",
+    "stage": "prod",
+    "domainName": "api.samardash.com",
+    "identity": {
+      "sourceIp": "127.0.0.1"
+    }
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

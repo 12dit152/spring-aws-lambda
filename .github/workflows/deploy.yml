@@ -50,6 +50,18 @@ jobs:
             --function-name spring-lambda-hello \
             --s3-bucket maven-releases-897729105223-eu-west-1 \
             --s3-key builds/$JAR_NAME
+          
+          # Publish new version
+          VERSION=$(aws lambda publish-version \
+            --function-name spring-lambda-hello \
+            --description "Build ${{ github.run_number }}" \
+            --query 'Version' --output text)
+          
+          # Update dev alias to point to new version
+          aws lambda update-alias \
+            --function-name spring-lambda-hello \
+            --name dev \
+            --function-version $VERSION
 
       - name: Cleanup old JAR files (keep latest 2)
         run: |
