@@ -63,6 +63,10 @@ jobs:
             --description "Build ${{ github.run_number }}" \
             --query 'Version' --output text)
           
+          # Wait for version to be active
+          aws lambda wait function-active-v2 \
+            --function-name spring-lambda-hello:$VERSION
+          
           # Test the new version
           aws lambda invoke \
             --function-name spring-lambda-hello:$VERSION \
