@@ -39,15 +39,16 @@ public class LambdaController {
         eventLogger.addEventData("HelloService", "httpCode", "200");
 
         ObjectNode response = objectMapper.createObjectNode();
-        response.put("🚀 status", "LIVE & SERVERLESS");
-        response.put("👨‍💻 developer", "Samar Dash");
-        response.put("💬 message", "Hello from AWS Lambda ⚡");
-        response.put("🏠 portfolio", "https://samardash.com");
-        response.put("🔗 api_endpoint", "https://api.samardash.com/api/v1/hello");
-        response.put("🛤️ architecture", "Route 53 ➜ API Gateway ➜ Lambda ➜ Spring Boot");
-        response.put("☁️ platform", "AWS Serverless + Java 21 + Spring Boot 3.5");
-        response.put("🌍 environment", String.join(",", environment.getActiveProfiles()));
-        response.put("⚡ powered_by", "AWS Lambda + GitHub Actions CI/CD");
+        response.put("status", "LIVE & SERVERLESS");
+        response.put("developer", "Samar Dash");
+        response.put("message", "Hello from AWS Lambda!");
+        response.put("portfolio", "https://samardash.com");
+        response.put("api_endpoint", "https://api.samardash.com/api/v1/hello");
+        response.put("architecture", "Route 53 -> API Gateway -> Lambda -> Spring Boot");
+        response.put("platform", "AWS Serverless + Java 21 + Spring Boot 3.5");
+        response.put("environment", String.join(",", environment.getActiveProfiles()));
+        response.put("powered_by", "AWS Lambda + GitHub Actions CI/CD");
+        response.put("tech_stack", "Spring Boot 3.5 | Java 21 | Maven | ARM64");
 
         eventLogger.endEvent("HelloService", EventLogger.EventStatus.SUCCESS);
         log.debug("Response: {}", response);
