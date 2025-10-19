@@ -26,6 +26,7 @@
         <aws-serverless-java-container-springboot3.version>2.1.5</aws-serverless-java-container-springboot3.version>
         <aws-lambda-java-core.version>1.4.0</aws-lambda-java-core.version>
         <spring-cloud-aws.version>3.4.0</spring-cloud-aws.version>
+        <logback.version>1.5.19</logback.version>
     </properties>
 
     <dependencies>
@@ -33,6 +34,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -63,6 +70,12 @@
             <groupId>io.awspring.cloud</groupId>
             <artifactId>spring-cloud-aws-starter-parameter-store</artifactId>
             <version>${spring-cloud-aws.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
         </dependency>
 
         <dependency>
