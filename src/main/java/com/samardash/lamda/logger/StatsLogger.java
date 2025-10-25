@@ -41,7 +41,7 @@ public class StatsLogger implements HandlerInterceptor {
             MDC.put("http.status_code", String.valueOf(response.getStatus()));
             MDC.put("http.response_time_ms", String.valueOf(elapsedTime));
             MDC.put("client.ip", getClientIp(request));
-            log.info("Stats Log For : {}", request.getMethod() + request.getRequestURI());
+            log.info("Stats Log For : {}", request.getMethod() + " " +request.getRequestURI());
         } catch (Exception e) {
             log.error("Error logging stats {}", e.getMessage());
         } finally {

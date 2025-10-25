@@ -30,14 +30,16 @@ public class TransactionLogger extends OncePerRequestFilter {
     protected void doFilterInternal(@NonNull HttpServletRequest request, @NonNull HttpServletResponse response,
                                     @NonNull FilterChain filterChain) throws ServletException, IOException {
         setRequestId();
-        
+
         ContentCachingRequestWrapper requestWrapper = new ContentCachingRequestWrapper(request);
         ContentCachingResponseWrapper responseWrapper = new ContentCachingResponseWrapper(response);
 
         try {
             filterChain.doFilter(requestWrapper, responseWrapper);
         } finally {
-            logTransaction(requestWrapper, responseWrapper);
+            if (!request.getRequestURI().contains("/actuator/") && !request.getMethod().equals("/error")) {
+                logTransaction(requestWrapper, responseWrapper);
+            }
             responseWrapper.copyBodyToResponse();
         }
     }
@@ -54,7 +56,7 @@ public class TransactionLogger extends OncePerRequestFilter {
                 requestData.put("body", new String(requestContent, StandardCharsets.UTF_8));
             }
             MDC.put("request", objectMapper.writeValueAsString(requestData));
-            
+
             // Response details
             Map<String, Object> responseData = new HashMap<>();
             responseData.put("headers", getResponseHeaders(response));
@@ -63,7 +65,7 @@ public class TransactionLogger extends OncePerRequestFilter {
                 responseData.put("body", new String(responseContent, StandardCharsets.UTF_8));
             }
             MDC.put("response", objectMapper.writeValueAsString(responseData));
-            
+
             log.info("TransactionLog for {}", request.getMethod() + " " + getFullPath(request));
         } catch (Exception e) {
             log.error("Error logging transaction", e);
