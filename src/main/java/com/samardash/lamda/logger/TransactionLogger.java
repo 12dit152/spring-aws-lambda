@@ -18,6 +18,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
+import static com.samardash.lamda.LambdaHandler.TRACE_ID;
+
 @Slf4j
 @Component
 public class TransactionLogger extends OncePerRequestFilter {
@@ -32,26 +34,18 @@ public class TransactionLogger extends OncePerRequestFilter {
         ContentCachingRequestWrapper requestWrapper = new ContentCachingRequestWrapper(request);
         ContentCachingResponseWrapper responseWrapper = new ContentCachingResponseWrapper(response);
 
-        long startTime = System.currentTimeMillis();
-        
         try {
             filterChain.doFilter(requestWrapper, responseWrapper);
         } finally {
-            long elapsedTime = System.currentTimeMillis() - startTime;
-            logTransaction(requestWrapper, responseWrapper, elapsedTime);
+            logTransaction(requestWrapper, responseWrapper);
             responseWrapper.copyBodyToResponse();
         }
     }
 
-    private void logTransaction(ContentCachingRequestWrapper request, ContentCachingResponseWrapper response, long elapsedTime) {
+    private void logTransaction(ContentCachingRequestWrapper request, ContentCachingResponseWrapper response) {
         try {
-            MDC.put("logType", "TransactionLog for " + request.getMethod() + " " + getFullPath(request));
-            MDC.put("method", request.getMethod());
-            MDC.put("uri", getFullPath(request));
-            MDC.put("statusCode", String.valueOf(response.getStatus()));
-            MDC.put("elapsedTimeMs", String.valueOf(elapsedTime));
-            MDC.put("clientIp", getClientIp(request));
-            
+            MDC.put("http.status_code", String.valueOf(response.getStatus()));
+
             // Request details
             Map<String, Object> requestData = new HashMap<>();
             requestData.put("headers", getHeaders(request));
@@ -70,32 +64,25 @@ public class TransactionLogger extends OncePerRequestFilter {
             }
             MDC.put("response", objectMapper.writeValueAsString(responseData));
             
-            log.info("TransactionLog");
+            log.info("TransactionLog for {}", request.getMethod() + " " + getFullPath(request));
         } catch (Exception e) {
             log.error("Error logging transaction", e);
         } finally {
-            MDC.remove("logType");
-            MDC.remove("method");
-            MDC.remove("uri");
-            MDC.remove("statusCode");
-            MDC.remove("elapsedTimeMs");
-            MDC.remove("clientIp");
-            MDC.remove("request");
-            MDC.remove("response");
+            String traceId = MDC.get(TRACE_ID);
+            MDC.clear();
+            MDC.put(TRACE_ID, traceId);
         }
     }
 
     private Map<String, String> getHeaders(HttpServletRequest request) {
         Map<String, String> headers = new HashMap<>();
-        request.getHeaderNames().asIterator().forEachRemaining(name -> 
-            headers.put(name, request.getHeader(name)));
+        request.getHeaderNames().asIterator().forEachRemaining(name -> headers.put(name, request.getHeader(name)));
         return headers;
     }
 
     private Map<String, String> getResponseHeaders(HttpServletResponse response) {
         Map<String, String> headers = new HashMap<>();
-        response.getHeaderNames().forEach(name -> 
-            headers.put(name, response.getHeader(name)));
+        response.getHeaderNames().forEach(name -> headers.put(name, response.getHeader(name)));
         return headers;
     }
 
@@ -105,19 +92,11 @@ public class TransactionLogger extends OncePerRequestFilter {
         return query != null ? path + "?" + query : path;
     }
 
-    private String getClientIp(HttpServletRequest request) {
-        String xForwardedFor = request.getHeader("X-Forwarded-For");
-        if (xForwardedFor != null && !xForwardedFor.isEmpty()) {
-            return xForwardedFor.split(",")[0].trim();
-        }
-        return request.getRemoteAddr();
-    }
-
     private static void setRequestId() {
-        String existingRequestId = MDC.get("requestId");
+        String existingRequestId = MDC.get(TRACE_ID);
         if (existingRequestId == null || existingRequestId.isEmpty()) {
             String requestId = java.util.UUID.randomUUID().toString();
-            MDC.put("requestId", requestId);
+            MDC.put(TRACE_ID, requestId);
         }
     }
 }

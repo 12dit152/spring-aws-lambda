@@ -1,6 +1,5 @@
 package com.samardash.lamda.logger;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -10,14 +9,12 @@ import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import java.util.HashMap;
-import java.util.Map;
+import static com.samardash.lamda.LambdaHandler.TRACE_ID;
 
 @Slf4j
 @Component
 public class StatsLogger implements HandlerInterceptor {
 
-    private final ObjectMapper objectMapper = new ObjectMapper();
     private static final String START_TIME_ATTR = "statsStartTime";
 
     @Override
@@ -31,52 +28,26 @@ public class StatsLogger implements HandlerInterceptor {
         Long startTime = (Long) request.getAttribute(START_TIME_ATTR);
         if (startTime != null) {
             long elapsedTime = System.currentTimeMillis() - startTime;
-            logStats(request, response, handler, elapsedTime, ex);
+            logStats(request, response, elapsedTime);
         }
     }
 
-    private void logStats(HttpServletRequest request, HttpServletResponse response, Object handler, long elapsedTime, Exception ex) {
+    private void logStats(HttpServletRequest request, HttpServletResponse response, long elapsedTime) {
         try {
-            String operationName = request.getMethod() + " " + request.getRequestURI();
-            
-            MDC.put("logType", "StatsLog");
-            MDC.put("operationName", operationName);
-            MDC.put("statusCode", String.valueOf(response.getStatus()));
-            MDC.put("elapsedTimeMs", String.valueOf(elapsedTime));
-            MDC.put("clientIp", getClientIp(request));
-
-            Map<String, Object> data = new HashMap<>();
-
-            // Add only custom fields from MDC
-            Map<String, String> mdcData = MDC.getCopyOfContextMap();
-            if (mdcData != null) {
-                mdcData.entrySet().stream()
-                        .filter(entry -> !entry.getKey().equals("logType") &&
-                                !entry.getKey().equals("requestId") &&
-                                !entry.getKey().equals("operationName") &&
-                                !entry.getKey().equals("statusCode") &&
-                                !entry.getKey().equals("elapsedTimeMs") &&
-                                !entry.getKey().equals("clientIp"))
-                        .forEach(entry -> {
-                            data.put(entry.getKey(), entry.getValue());
-                            MDC.remove(entry.getKey()); // Remove from MDC immediately
-                        });
-            }
-
-            if (!data.isEmpty()) {
-                MDC.put("data", objectMapper.writeValueAsString(data));
-            }
-            log.info("Stats log for " + operationName);
+            MDC.put("http.method", request.getMethod());
+            MDC.put("http.path", request.getRequestURI());
+            MDC.put("http.query", request.getQueryString());
+            MDC.put("service", request.getRequestURI().replaceFirst("/", "").replaceAll("/", "-"));
+            MDC.put("http.status_code", String.valueOf(response.getStatus()));
+            MDC.put("http.response_time_ms", String.valueOf(elapsedTime));
+            MDC.put("client.ip", getClientIp(request));
+            log.info("Stats Log For : {}", request.getMethod() + request.getRequestURI());
         } catch (Exception e) {
-            log.error("Error logging stats", e);
+            log.error("Error logging stats {}", e.getMessage());
         } finally {
-            MDC.remove("logType");
-            MDC.remove("operationName");
-            MDC.remove("statusCode");
-            MDC.remove("elapsedTimeMs");
-            MDC.remove("clientIp");
-            MDC.remove("data");
-
+            String traceId = MDC.get(TRACE_ID);
+            MDC.clear();
+            MDC.put(TRACE_ID, traceId);
         }
     }
 

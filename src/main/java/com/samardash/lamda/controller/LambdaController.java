@@ -34,9 +34,9 @@ public class LambdaController {
         statsLogger.addData("environment", Arrays.toString(environment.getActiveProfiles()));
 
         // Example EventLogger usage
-        eventLogger.startEvent("HelloService");
-        eventLogger.addEventData("HelloService", "operation", "GET");
-        eventLogger.addEventData("HelloService", "httpCode", "200");
+        eventLogger.startEvent("backend-call");
+        eventLogger.addEventData("backend-call", "operation", "GET");
+        eventLogger.addEventData("backend-call", "service", "backend-call");
 
         ObjectNode response = objectMapper.createObjectNode();
         response.put("status", "LIVE & SERVERLESS");
@@ -50,7 +50,7 @@ public class LambdaController {
         response.put("powered_by", "AWS Lambda + GitHub Actions CI/CD");
         response.put("tech_stack", "Spring Boot 3.5 | Java 21 | Maven | ARM64");
 
-        eventLogger.endEvent("HelloService", EventLogger.EventStatus.SUCCESS);
+        eventLogger.endEvent("backend-call", 200);
         log.debug("Response: {}", response);
         return response.toPrettyString();
     }
