@@ -9,6 +9,7 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
 import org.slf4j.MDC;
 
 public class LambdaHandler implements RequestHandler<AwsProxyRequest, AwsProxyResponse> {
+    public static final String TRACE_ID= "traceId";
     private static final SpringBootLambdaContainerHandler<AwsProxyRequest, AwsProxyResponse> handler;
 
     static {
@@ -21,8 +22,8 @@ public class LambdaHandler implements RequestHandler<AwsProxyRequest, AwsProxyRe
 
     @Override
     public AwsProxyResponse handleRequest(AwsProxyRequest input, Context context) {
-        // Set AWS request ID in MDC for correlation with AWS logs
-        MDC.put("Request-ID", context.getAwsRequestId());
+        // Set AWS request ID in MDC for tracing
+        MDC.put(TRACE_ID, context.getAwsRequestId());
         return handler.proxy(input, context);
     }
 }
