@@ -74,7 +74,7 @@ jobs:
             --payload '{"resource":"/actuator/health","path":"/actuator/health","httpMethod":"GET","requestContext":{"resourcePath":"/actuator/health","httpMethod":"GET","requestId":"test-123","identity":{"sourceIp":"127.0.0.1"}},"isBase64Encoded":false}' \
             response.json
           
-          # Only if test passes, update alias
+          # Only if test passes, update alias and cleanup
           if [ $? -eq 0 ]; then
             echo "Version $VERSION validation passed, updating alias..."
             aws lambda update-alias \
@@ -82,37 +82,36 @@ jobs:
               --name dev \
               --function-version $VERSION
             echo "Deployed version $VERSION to dev alias"
+            
+            # Immediate cleanup after successful deployment
+            echo "Health check passed - cleaning up all versions and JARs..."
+            
+            # Delete all old Lambda versions (keep only $LATEST + current alias version)
+            aws lambda list-versions-by-function \
+              --function-name spring-lambda-hello \
+              --query 'Versions[?Version!=`$LATEST` && Version!=`'$VERSION'`].Version' \
+              --output text | \
+            tr '\t' '\n' | \
+            while read old_version; do
+              echo "Deleting Lambda version: $old_version"
+              aws lambda delete-function \
+                --function-name spring-lambda-hello:$old_version
+            done
+            
+            # Delete ALL JAR files from S3 (no need to keep any after deployment)
+            aws s3api list-objects-v2 \
+              --bucket maven-releases-897729105223-eu-west-1 \
+              --prefix builds/spring-lambda-hello- \
+              --query 'Contents[?ends_with(Key, `.jar`)].Key' \
+              --output text | \
+            tr '\t' '\n' | \
+            while read jar_file; do
+              echo "Deleting JAR: $jar_file"
+              aws s3 rm "s3://maven-releases-897729105223-eu-west-1/$jar_file"
+            done
+            
+            echo "Cleanup completed - Lambda has $LATEST + version $VERSION, S3 cleared"
           else
             echo "Version $VERSION failed validation"
             exit 1
           fi
-
-      - name: Cleanup old versions and JARs
-        run: |
-          # Cleanup old Lambda versions (keep latest 2 numbered versions)
-          aws lambda list-versions-by-function \
-            --function-name spring-lambda-hello \
-            --query 'Versions[?Version!=`$LATEST`].Version' \
-            --output text | \
-          tr '\t' '\n' | \
-          sort -nr | \
-          tail -n +3 | \
-          while read version; do
-            echo "Deleting Lambda version: $version"
-            aws lambda delete-function \
-              --function-name spring-lambda-hello:$version
-          done
-          
-          # Cleanup old JAR files (keep latest 2)
-          aws s3api list-objects-v2 \
-            --bucket maven-releases-897729105223-eu-west-1 \
-            --prefix builds/spring-lambda-hello- \
-            --query 'Contents[?ends_with(Key, `.jar`)].[Key,LastModified]' \
-            --output text | \
-          sort -k2 -r | \
-          tail -n +3 | \
-          cut -f1 | \
-          while read key; do
-            echo "Deleting old JAR: $key"
-            aws s3 rm "s3://maven-releases-897729105223-eu-west-1/$key"
-          done
