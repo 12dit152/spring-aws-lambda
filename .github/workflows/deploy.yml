@@ -89,13 +89,15 @@ jobs:
             # Delete all old Lambda versions (keep only $LATEST + current alias version)
             aws lambda list-versions-by-function \
               --function-name spring-lambda-hello \
-              --query 'Versions[?Version!=`$LATEST` && Version!=`'$VERSION'`].Version' \
+              --query 'Versions[?Version!=`$LATEST`].Version' \
               --output text | \
             tr '\t' '\n' | \
             while read old_version; do
-              echo "Deleting Lambda version: $old_version"
-              aws lambda delete-function \
-                --function-name spring-lambda-hello:$old_version
+              if [ "$old_version" != "$VERSION" ]; then
+                echo "Deleting Lambda version: $old_version"
+                aws lambda delete-function \
+                  --function-name spring-lambda-hello:$old_version
+              fi
             done
             
             # Delete ALL JAR files from S3 (no need to keep any after deployment)
