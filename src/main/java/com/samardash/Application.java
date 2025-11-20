@@ -1,11 +1,11 @@
-package com.samardash.lamda;
+package com.samardash;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LambdaApplication {
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(LambdaApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }

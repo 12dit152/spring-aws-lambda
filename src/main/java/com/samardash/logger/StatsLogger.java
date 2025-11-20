@@ -1,4 +1,4 @@
-package com.samardash.lamda.logger;
+package com.samardash.logger;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -9,7 +9,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
-import static com.samardash.lamda.LambdaHandler.TRACE_ID;
+import static com.samardash.lambda.LambdaHandler.TRACE_ID;
 
 @Slf4j
 @Component

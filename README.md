@@ -80,7 +80,7 @@ This project demonstrates how to run a modern Spring Boot application as a serve
 
 3. **Deploy to AWS Lambda**
    - Upload `target/spring-lambda-hello-1.0-SNAPSHOT.jar`
-   - Set handler: `com.samardash.lamda.LambdaHandler`
+   - Set handler: `com.samardash.lambda.LambdaHandler`
    - Set environment: `SPRING_PROFILES_ACTIVE=prod`
 
 ---

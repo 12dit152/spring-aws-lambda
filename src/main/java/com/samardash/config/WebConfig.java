@@ -1,6 +1,6 @@
-package com.samardash.lamda.config;
+package com.samardash.config;
 
-import com.samardash.lamda.logger.StatsLogger;
+import com.samardash.logger.StatsLogger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

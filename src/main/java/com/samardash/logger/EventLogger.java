@@ -1,4 +1,4 @@
-package com.samardash.lamda.logger;
+package com.samardash.logger;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.samardash.lamda.LambdaHandler.TRACE_ID;
+import static com.samardash.lambda.LambdaHandler.TRACE_ID;
 
 @Slf4j
 @Component

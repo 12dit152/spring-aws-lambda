@@ -1,10 +1,10 @@
-package com.samardash.lamda.controller;
+package com.samardash.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.samardash.lamda.service.LambdaService;
-import com.samardash.lamda.logger.EventLogger;
-import com.samardash.lamda.logger.StatsLogger;
+import com.samardash.service.LambdaService;
+import com.samardash.logger.EventLogger;
+import com.samardash.logger.StatsLogger;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
