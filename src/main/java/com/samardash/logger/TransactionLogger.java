@@ -1,4 +1,4 @@
-package com.samardash.lamda.logger;
+package com.samardash.logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.FilterChain;
@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.samardash.lamda.LambdaHandler.TRACE_ID;
+import static com.samardash.lambda.LambdaHandler.TRACE_ID;
 
 @Slf4j
 @Component
