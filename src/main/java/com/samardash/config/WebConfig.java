@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
 
     @Autowired
-    private StatsLogger statsLogger;
+    private @NonNull StatsLogger statsLogger;
 
     @Override
     public void addInterceptors(@NonNull InterceptorRegistry registry) {
