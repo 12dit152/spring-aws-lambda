@@ -57,6 +57,15 @@ jobs:
           aws lambda wait function-updated \
             --function-name spring-lambda-hello
           
+          # Update runtime to Java 25
+          aws lambda update-function-configuration \
+            --function-name spring-lambda-hello \
+            --runtime java25
+          
+          # Wait for configuration update to complete
+          aws lambda wait function-updated \
+            --function-name spring-lambda-hello
+          
           # Publish new version
           VERSION=$(aws lambda publish-version \
             --function-name spring-lambda-hello \
