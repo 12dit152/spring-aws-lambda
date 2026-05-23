@@ -1,7 +1,7 @@
 package com.samardash.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
+import tools.jackson.databind.ObjectMapper;
+import tools.jackson.databind.node.ObjectNode;
 import com.samardash.service.LambdaService;
 import com.samardash.logger.EventLogger;
 import com.samardash.logger.StatsLogger;
@@ -45,10 +45,10 @@ public class LambdaController {
         response.put("portfolio", "https://samardash.com");
         response.put("api_endpoint", "https://api.samardash.com/api/v1/hello");
         response.put("architecture", "Route 53 -> API Gateway -> Lambda -> Spring Boot");
-        response.put("platform", "AWS Serverless + Java 21 + Spring Boot 3.5");
+        response.put("platform", "AWS Serverless + Java 25 + Spring Boot 4.0");
         response.put("environment", String.join(",", environment.getActiveProfiles()));
         response.put("powered_by", "AWS Lambda + GitHub Actions CI/CD");
-        response.put("tech_stack", "Spring Boot 3.5 | Java 21 | Maven | ARM64");
+        response.put("tech_stack", "Spring Boot 4.0 | Java 25 | Maven | ARM64");
 
         eventLogger.endEvent("backend-call", 200);
         log.debug("Response: {}", response);
