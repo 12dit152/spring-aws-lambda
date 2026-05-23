@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 21
+          java-version: 25
           cache: maven
 
       - name: Build the JAR
@@ -54,6 +54,15 @@ jobs:
             --s3-key builds/$JAR_NAME
           
           # Wait for update to complete
+          aws lambda wait function-updated \
+            --function-name spring-lambda-hello
+          
+          # Update runtime to Java 25
+          aws lambda update-function-configuration \
+            --function-name spring-lambda-hello \
+            --runtime java25
+          
+          # Wait for configuration update to complete
           aws lambda wait function-updated \
             --function-name spring-lambda-hello
           
