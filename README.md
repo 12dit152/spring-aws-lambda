@@ -19,7 +19,7 @@ This project demonstrates how to run a modern Spring Boot application as a serve
 
 ## 🛠️ Tech Stack
 
-- **Spring Boot 3.5** (Java 21)
+- **Spring Boot 4.0** (Java 25)
 - **AWS Lambda** with custom logging and correlation IDs
 - **API Gateway** with custom domain
 - **AWS Parameter Store** for environment-specific configuration
@@ -38,7 +38,7 @@ This project demonstrates how to run a modern Spring Boot application as a serve
    - `/` - Modern chat interface
 
 2. **AWS Lambda Integration**  
-   - Uses `aws-serverless-java-container-springboot3`
+   - Uses `aws-serverless-java-container-springboot4`
    - Custom correlation ID logging with AWS request IDs
    - Environment-specific configuration via Parameter Store
 
