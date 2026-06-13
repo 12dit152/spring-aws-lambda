@@ -1,0 +1,175 @@
+{
+    "data": [
+        {
+            "id": "8e8f214d-4c44-464c-b52c-3f5f594327cf",
+            "employee": {
+                "id": "9e244426-04d7-4653-b32c-e14e2764d598",
+                "employeeNumber": "1",
+                "employeeName": "Karen Martinez"
+            },
+            "claimNumber": "Travel2",
+            "title": "EXP",
+            "submittedOn": "2023-08-08",
+            "approvalStatus": 2,
+            "expenses": [
+                {
+                    "id": "09c8b4d7-1757-455a-a755-c55d5914f6df",
+                    "title": "EXP",
+                    "date": "2023-08-01",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 2000,
+                    "comment": "Need to approve.",
+                    "currency": {
+                        "name": null,
+                        "code": "INR"
+                    }
+                },
+                {
+                    "id": "78cc2031-a597-4225-a008-b6ace6d311ce",
+                    "title": "SPD",
+                    "date": "2023-08-31",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 1500,
+                    "comment": null,
+                    "currency": {
+                        "name": " India Rupee",
+                        "code": "INR"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e75be52b-9f10-46e7-b1dd-1dbe62882a2f",
+            "employee": {
+                "id": "9e244426-04d7-4653-b32c-e14e2764d598",
+                "employeeNumber": "1",
+                "employeeName": "Karen Martinez"
+            },
+            "claimNumber": "Travel3",
+            "title": "DFG",
+            "submittedOn": "2023-08-08",
+            "approvalStatus": 2,
+            "expenses": [
+                {
+                    "id": "5fbb8f8c-ff41-4585-9ef9-a1282df4d549",
+                    "title": "DFG",
+                    "date": "2023-08-31",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 2000,
+                    "comment": null,
+                    "currency": {
+                        "name": null,
+                        "code": "INR"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "96d3632a-f694-41ed-a717-0f693511a168",
+            "employee": {
+                "id": "9e244426-04d7-4653-b32c-e14e2764d598",
+                "employeeNumber": "1",
+                "employeeName": "Karen Martinez"
+            },
+            "claimNumber": "Travel5",
+            "title": "SSS",
+            "submittedOn": "2023-10-16",
+            "approvalStatus": 2,
+            "expenses": [
+                {
+                    "id": "20bb0bfc-2b7c-40fb-9383-37be219af8c8",
+                    "title": "SSS",
+                    "date": "2023-10-11",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 825,
+                    "comment": "Done",
+                    "currency": {
+                        "name": null,
+                        "code": "USD"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ed9590e0-3608-4f10-a0ec-cb92d43d9047",
+            "employee": {
+                "id": "17b28efc-ad5c-41ef-83fa-86142aa6f8dc",
+                "employeeNumber": "7",
+                "employeeName": "Michael White"
+            },
+            "claimNumber": "Travel6",
+            "title": "AAA",
+            "submittedOn": "2023-10-16",
+            "approvalStatus": 2,
+            "expenses": [
+                {
+                    "id": "ae38110f-b872-4cd9-a46c-7bfe977c3ae8",
+                    "title": "AAA",
+                    "date": "2023-09-20",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 1500,
+                    "comment": "Done",
+                    "currency": {
+                        "name": null,
+                        "code": "INR"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4d1f7da6-c27f-4bc7-9aef-858be2b85b04",
+            "employee": {
+                "id": "9e244426-04d7-4653-b32c-e14e2764d598",
+                "employeeNumber": "1",
+                "employeeName": "Karen Martinez"
+            },
+            "claimNumber": "Travel4",
+            "title": "NXP",
+            "submittedOn": "2023-08-08",
+            "approvalStatus": 3,
+            "expenses": [
+                {
+                    "id": "851981f6-f02f-4735-8c34-91fc9de5ce7d",
+                    "title": "NXP",
+                    "date": "2023-08-01",
+                    "expenseCategory": {
+                        "id": "4b3ec7dd-d9be-4313-972a-62000e8f1ff7",
+                        "name": "Travel"
+                    },
+                    "amount": 1500,
+                    "comment": "Needed to approve.",
+                    "currency": {
+                        "name": null,
+                        "code": "INR"
+                    }
+                }
+            ]
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/expense/claims?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/expense/claims?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 5,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

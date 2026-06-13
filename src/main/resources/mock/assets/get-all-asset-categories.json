@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "id": "74023d9f-23bb-4936-980d-92073665e87e",
+            "name": "Laptop(Windows)"
+        },
+        {
+            "id": "68580f05-60ec-44f7-a96d-3b12f364a6b3",
+            "name": "Laptop(Mac)"
+        },
+        {
+            "id": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "name": "Monitor"
+        },
+        {
+            "id": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "name": "iPhone"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/assets/categories?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/assets/categories?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 4,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

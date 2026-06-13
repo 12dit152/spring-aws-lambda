@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "name": "Top Performer",
+            "description": "One who constantly gives the best at work.",
+            "status": 0,
+            "id": "7b2235c6-8711-4747-8b1a-5d7d1f4c64bc"
+        },
+        {
+            "name": "Leadership Impact",
+            "description": "To the one who always inspires and create impact.",
+            "status": 0,
+            "id": "ec65ee1e-46ee-460f-bb87-65878ac6f39b"
+        },
+        {
+            "name": "Customer Hero",
+            "description": "To the one who have demonstrated exceptional skills in client communication and relations.",
+            "status": 0,
+            "id": "31487ec8-deea-429c-9ee9-fde03f8f8fc0"
+        },
+        {
+            "name": "Above & Beyond",
+            "description": "To the person who is beyond the expectations.",
+            "status": 0,
+            "id": "d734ab14-b0e7-4211-87fa-72d11ff1d500"
+        },
+        {
+            "name": "High Five",
+            "description": "For being an exceptional performer and an inspiration.",
+            "status": 0,
+            "id": "c9d32db3-a2df-4c22-b257-5516546250e1"
+        },
+        {
+            "name": "Leaving a Legacy",
+            "description": "One who had set a trademark in the organization.",
+            "status": 0,
+            "id": "22a2c1ec-9945-4c09-8246-9b2637f08874"
+        },
+        {
+            "name": "Team Player",
+            "description": "For the one who supports and collaborates the work of the team.",
+            "status": 0,
+            "id": "227b2ef8-25be-488d-886b-b157ff7a2a40"
+        },
+        {
+            "name": "Rockstar Rookie",
+            "description": "Beginner who excels and exceeds the expectations.",
+            "status": 0,
+            "id": "c3ab4519-e91c-4a9b-86ee-5c08ff8a5887"
+        },
+        {
+            "name": "Being Keka",
+            "description": "For the person who is \u2018Awesome\u2019.",
+            "status": 0,
+            "id": "87391850-7ece-49a5-9008-9f419bf8fad7"
+        },
+        {
+            "name": "All Day Everyday",
+            "description": "For the one who has immaculate attendance.",
+            "status": 0,
+            "id": "27f7a5b2-2012-44d9-a85b-4d3e8580748c"
+        },
+        {
+            "name": "HR Wizard",
+            "description": "For pulling solutions out of their hats",
+            "status": 1,
+            "id": "950a37bc-1afb-4b93-b1f4-c9d84b7441ee"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/pms/badges?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/pms/badges?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 11,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

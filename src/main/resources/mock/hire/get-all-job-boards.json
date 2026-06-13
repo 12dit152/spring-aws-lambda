@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "jobBoardName": "Naukri",
+            "jobBoardIdentifier": "734a3c6a-ac0c-4628-94ec-a7ccd252cdea",
+            "isActive": false
+        },
+        {
+            "jobBoardName": "LinkedIn",
+            "jobBoardIdentifier": "abc2e28b-d3cc-40e0-bb01-ead7e557f81c",
+            "isActive": true
+        }
+    ],
+    "status": 200,
+    "succeeded": true,
+    "message": "Success",
+    "errors": null
+}

@@ -1,0 +1,3822 @@
+{
+    "data": [
+        {
+            "id": "482b5edd-c667-4c1d-a33d-ae8add9dc21d",
+            "employee": {
+                "id": "01ca2ac4-e2ae-4967-8e55-c963a6acb71f",
+                "employeeNumber": "1",
+                "employeeName": "Lisa Walker"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "a2667b8e-05ab-48b6-ad18-26609e875250",
+            "employee": {
+                "id": "aa1195e6-51d4-40fd-9aab-547ba9bda4f2",
+                "employeeNumber": "UK1",
+                "employeeName": "Sandra Wright"
+            },
+            "ctc": 680000,
+            "gross": 680000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-02-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 340000
+                },
+                {
+                    "id": "71ab9780-037f-4f6f-b657-b16de2385b39",
+                    "name": "food",
+                    "title": "Food Coupons",
+                    "amount": 36000
+                },
+                {
+                    "id": "00bc16f5-2cd4-4fb7-85c1-64d65c7316ac",
+                    "name": "professional",
+                    "title": "Professional Allowance",
+                    "amount": 36000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 204000
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 60000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 4000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "3e512a07-2a88-4a9e-8d74-deb28c70c718",
+            "employee": {
+                "id": "2ea32ac9-5497-4095-adc3-6dde2b8fb639",
+                "employeeNumber": "SE1",
+                "employeeName": "Steven Taylor"
+            },
+            "ctc": 90000,
+            "gross": 90000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-05-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 45000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 18000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 27000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "49ef1297-0244-4686-b211-14a4856008c5",
+            "employee": {
+                "id": "7bc75665-5e28-4614-a1e9-49c03f0a4feb",
+                "employeeNumber": "US1",
+                "employeeName": "Donald Thomas"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-06T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "7859e30e-fc83-4f00-89bb-df57ab2af31a",
+            "employee": {
+                "id": "d9db5954-7301-4355-b907-bf908862f126",
+                "employeeNumber": "IN1",
+                "employeeName": "Linda Brown"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "3b0d4f5d-8d69-4e2c-bfa5-62391341aef0",
+            "employee": {
+                "id": "81d48cb6-f0fa-472d-af5d-cce241f7e102",
+                "employeeNumber": "ME01",
+                "employeeName": "Joshua Martin"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "f696dd04-f8b0-4d11-9a9f-422b99a061da",
+            "employee": {
+                "id": "13e900e4-fdd4-4933-822c-47f8abcc0bb7",
+                "employeeNumber": "SE3",
+                "employeeName": "Anthony Wilson"
+            },
+            "ctc": 40000,
+            "gross": 40000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-05-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 20000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 8000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 12000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "e5733db6-7001-420b-8e7d-74d96e01f7de",
+            "employee": {
+                "id": "38ea6da7-55d5-4283-aebb-571886d8330f",
+                "employeeNumber": "IN2",
+                "employeeName": "Robert Williams"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "21c3b5e6-a1cb-4c8a-b0c0-bf91bc75bfd2",
+            "employee": {
+                "id": "43f1115e-55ad-4c7f-966f-d53e9f41ee72",
+                "employeeNumber": "IN3",
+                "employeeName": "Nancy Young"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "5316ab66-1812-4652-a4e8-7b7ce9f4bf43",
+            "employee": {
+                "id": "9bccbe7d-d419-4ce0-bdc2-d2c54b29ab1b",
+                "employeeNumber": "IN4",
+                "employeeName": "William Harris"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "f3f14b56-3c61-4ab6-9ef3-5b812be53d16",
+            "employee": {
+                "id": "bad00fa1-1309-4a7b-844d-25f37e212fd1",
+                "employeeNumber": "IN5",
+                "employeeName": "Nancy Young"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "074d1ecb-72dc-42ad-a135-80a9a769228c",
+            "employee": {
+                "id": "b82be680-f218-45c3-8c3d-b1fcf1934c75",
+                "employeeNumber": "IN6",
+                "employeeName": "Daniel Young"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "4e9bda05-bea3-4f52-b826-c6819d8ecfe8",
+            "employee": {
+                "id": "63541828-4430-40d6-9a20-9071da60a55e",
+                "employeeNumber": "IN8",
+                "employeeName": "Matthew Gonzalez"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "f22b2459-c0d0-4f2a-8895-3c98631847de",
+            "employee": {
+                "id": "a7108ed8-59b7-40d2-936a-0dccf754ff22",
+                "employeeNumber": "IN7",
+                "employeeName": "Lisa Walker"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "f98bce60-26cc-42da-a59f-e84ec891fab7",
+            "employee": {
+                "id": "c1d7a9e0-4d3c-4aa2-8b96-838a81c93da7",
+                "employeeNumber": "IN09",
+                "employeeName": "Anthony King"
+            },
+            "ctc": 500000,
+            "gross": 500000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 200000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 100000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 176300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "535bcfbd-df68-40d9-8027-2eb4ca7e4540",
+            "employee": {
+                "id": "82b6d731-028a-44ad-805a-efd6bb400b8d",
+                "employeeNumber": "IN10",
+                "employeeName": "Emily Nguyen"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "9eab0715-6dc3-443e-b6a7-184fbaa48ac1",
+            "employee": {
+                "id": "2a802e37-b51b-4104-b7e5-6503567eff3d",
+                "employeeNumber": "IN11",
+                "employeeName": "Joshua Martin"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "b9b84bfa-eba4-4b05-9e90-a4dfe1ed7195",
+            "employee": {
+                "id": "d1b22821-b060-404a-9693-f825684e4ce8",
+                "employeeNumber": "IN12",
+                "employeeName": "John Johnson"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "8b15edf7-1f60-4bf0-b0e1-dc876d2bd776",
+            "employee": {
+                "id": "73c864ba-d150-4601-b988-7f7578c5649f",
+                "employeeNumber": "IN13",
+                "employeeName": "Donald Thomas"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "4febb782-2a9a-4df6-86af-9850df014d8b",
+            "employee": {
+                "id": "b5dbd987-b44d-4cd6-b626-0c1a4ccab138",
+                "employeeNumber": "IN14",
+                "employeeName": "Ashley Thomas"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "80036381-43af-4ae0-86b8-65ff7709b73c",
+            "employee": {
+                "id": "f455f54f-5c0e-49ff-9406-51c4ea845052",
+                "employeeNumber": "IN15",
+                "employeeName": "Margaret King"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "5888401c-1c8f-4310-88af-843d00f2d711",
+            "employee": {
+                "id": "c0d9ae75-7d2d-4ff0-8e08-5d44ddd1580d",
+                "employeeNumber": "US2",
+                "employeeName": "Christopher Hernandez"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-08T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "b1245249-d316-49f4-ad3b-ec02a9b0577e",
+            "employee": {
+                "id": "44613e1b-4ea3-4ba6-9aaf-ccf7a1b806f1",
+                "employeeNumber": "US3",
+                "employeeName": "William Harris"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-09T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "e5e3feb2-6060-4167-990d-1138ce39e65e",
+            "employee": {
+                "id": "6445ac0b-b262-464b-835b-854048b4d11b",
+                "employeeNumber": "IN16",
+                "employeeName": "James Smith"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "115e9e2e-32f2-4149-bd22-4c8bd7b0f29c",
+            "employee": {
+                "id": "f8016d24-3efb-4041-9c7a-533f5d2b25ce",
+                "employeeNumber": "IN17",
+                "employeeName": "Jessica Ramirez"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "0b9ae1d5-8328-4fc8-9aa3-340259bc46be",
+            "employee": {
+                "id": "bebb634f-fbad-404d-8bbd-88d24a922505",
+                "employeeNumber": "IN18",
+                "employeeName": "John Perez"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "0cf9091c-1708-4dad-87a3-58f3e700279d",
+            "employee": {
+                "id": "1f1e54c8-d88d-456d-962d-58bc287d4d5e",
+                "employeeNumber": "IN19",
+                "employeeName": "Linda White"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "4a32975e-9587-403e-8b89-f97d2d751552",
+            "employee": {
+                "id": "6fae59ed-9cdb-4a0b-a957-fb61677f20d0",
+                "employeeNumber": "IN20",
+                "employeeName": "Steven Taylor"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "7e533f27-e89c-4490-9ccd-29e312195a5a",
+            "employee": {
+                "id": "84b4e4a9-621c-470d-af51-d1f717792b4b",
+                "employeeNumber": "IN21",
+                "employeeName": "Michael White"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "67193dc8-8b39-43e1-b7fd-831360ba09ea",
+            "employee": {
+                "id": "87751193-291c-425d-91f9-754d9bd4db6b",
+                "employeeNumber": "IN22",
+                "employeeName": "Paul Nguyen"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "d8430bd1-ddc7-4f34-8d00-e412fd442875",
+            "employee": {
+                "id": "b12850d7-3607-4762-ad39-3059d8e97ac0",
+                "employeeNumber": "IN23",
+                "employeeName": "Christopher Walker"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "74405bd3-1773-446d-86ae-ea3735a048ce",
+            "employee": {
+                "id": "58261e21-89f5-4bde-bb39-ce02b9d30863",
+                "employeeNumber": "IN24",
+                "employeeName": "Donald Thomas"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "8155502e-8a51-4085-a011-435289b838e4",
+            "employee": {
+                "id": "4522a112-2429-46a1-9a76-246c7684a96e",
+                "employeeNumber": "IN25",
+                "employeeName": "Jennifer Williams"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "366e8227-991b-453b-b3c0-7c527fdb4a9a",
+            "employee": {
+                "id": "ffed881a-3db4-40fe-bb17-03c7907668b8",
+                "employeeNumber": "IN26",
+                "employeeName": "Barbara Sanchez"
+            },
+            "ctc": 800000,
+            "gross": 800000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 320000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 160000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 296300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "bbe1efb2-52d3-426e-96b6-478a4fe36c55",
+            "employee": {
+                "id": "7b039f0c-c9d0-4204-a958-db27e0895c87",
+                "employeeNumber": "IN27",
+                "employeeName": "Sarah Rodriguez"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "48cc8055-21d4-49fa-842f-5434fcb00e4d",
+            "employee": {
+                "id": "c2e4b1fd-1df7-43ee-b27f-c13cf8c30c02",
+                "employeeNumber": "IN28",
+                "employeeName": "Joshua Martin"
+            },
+            "ctc": 900000,
+            "gross": 900000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 360000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 180000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 336300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "2009df7c-c61e-41a6-8d1d-15574cd076a9",
+            "employee": {
+                "id": "0563cac8-cafa-4456-ac34-1ddb982d4b68",
+                "employeeNumber": "ME2",
+                "employeeName": "Kimberly Torres"
+            },
+            "ctc": 700001,
+            "gross": 700001,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211651
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "4e31bd67-0f32-4df3-9cb4-a1ed499cba3b",
+            "employee": {
+                "id": "73c7ae90-e3cb-4abe-bb3c-b0eb492079a7",
+                "employeeNumber": "ME3",
+                "employeeName": "Emily Nguyen"
+            },
+            "ctc": 700001,
+            "gross": 700001,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211651
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "a90a86a2-7ba2-4b98-a8e8-78019f034ad8",
+            "employee": {
+                "id": "b398eafb-2b41-4391-bf05-f81fc40f1f44",
+                "employeeNumber": "ME4",
+                "employeeName": "Donna Jackson"
+            },
+            "ctc": 700001,
+            "gross": 700001,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211651
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "78b69a99-e659-4ca6-9fd3-ddf72d22395c",
+            "employee": {
+                "id": "fab17610-d460-46e8-b9b4-ed7660f47f7a",
+                "employeeNumber": "ME5",
+                "employeeName": "Susan Clark"
+            },
+            "ctc": 700001,
+            "gross": 700001,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211651
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "4aa6b713-03e9-45f7-b6ab-be72fd6ffe87",
+            "employee": {
+                "id": "47bb280c-f915-4e86-a445-62268ec28606",
+                "employeeNumber": "ME10",
+                "employeeName": "Joseph Ramirez"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "805c98e8-9e8b-4678-abf7-7586faf8567b",
+            "employee": {
+                "id": "c9b9e99a-a542-4cd2-b777-10ad8f11d7bd",
+                "employeeNumber": "ME11",
+                "employeeName": "Thomas Rodriguez"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "dcc617e0-39d2-40c8-aff0-62fbe1914f9a",
+            "employee": {
+                "id": "bc656226-d7c4-49a8-9707-baad3f071f92",
+                "employeeNumber": "ME12",
+                "employeeName": "Michael Brown"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "e61327fb-261a-4fb2-be85-abac390295bd",
+            "employee": {
+                "id": "c146d651-9b65-4a98-807d-f051dd21d7c1",
+                "employeeNumber": "ME13",
+                "employeeName": "Jennifer Thompson"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "306a9753-bf19-47a1-b52a-a0cc788762ee",
+            "employee": {
+                "id": "5699dfe4-7be7-49be-8252-c3428046392f",
+                "employeeNumber": "ME14",
+                "employeeName": "Donald Thomas"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "5f9b6b2a-68ce-402a-84a5-b5732ab77fc8",
+            "employee": {
+                "id": "7894257e-4dd2-4bd0-b19e-ddb24ebad176",
+                "employeeNumber": "ME7",
+                "employeeName": "Elizabeth Harris"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "a07292aa-037d-4bb1-822c-dba61883bc28",
+            "employee": {
+                "id": "cceeaa12-ee61-43c1-bca0-e59ead0dbb69",
+                "employeeNumber": "ME8",
+                "employeeName": "Patricia Johnson"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "b68510da-3236-4e20-ae3b-82ec1eec85eb",
+            "employee": {
+                "id": "f513a13c-2e90-44b7-aaf4-c73b145821ab",
+                "employeeNumber": "ME9",
+                "employeeName": "Jennifer Williams"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 280000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 84000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 105000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 211650
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "d4c66050-5edc-4388-b01a-6305cb311e51",
+            "employee": {
+                "id": "fc68b91c-5eb9-46d0-94b4-d05cdde48d43",
+                "employeeNumber": "e01",
+                "employeeName": "Joseph Ramirez"
+            },
+            "ctc": 500000,
+            "gross": 500000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 250000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 100000
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 12500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 137500
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "a2773057-3610-4cf6-813c-400c321842f0",
+            "employee": {
+                "id": "39ea13ee-a846-4e31-b3ed-fd3f2c508700",
+                "employeeNumber": "e02",
+                "employeeName": "Kimberly Taylor"
+            },
+            "ctc": 700000,
+            "gross": 700000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 350000
+                },
+                {
+                    "id": "71ab9780-037f-4f6f-b657-b16de2385b39",
+                    "name": "food",
+                    "title": "Food Coupons",
+                    "amount": 36000
+                },
+                {
+                    "id": "00bc16f5-2cd4-4fb7-85c1-64d65c7316ac",
+                    "name": "professional",
+                    "title": "Professional Allowance",
+                    "amount": 36000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 210000
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 60000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 8000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "b666ab74-fdd6-46e0-a002-2f43956d5e65",
+            "employee": {
+                "id": "bd4e94ef-abe6-4e1c-9c6d-0f717c7fe94d",
+                "employeeNumber": "e17",
+                "employeeName": "Christopher Hernandez"
+            },
+            "ctc": 7990,
+            "gross": 7990,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 3196
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 4794
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "e5fe4c8e-d258-467b-88cd-7c65bf7418e1",
+            "employee": {
+                "id": "866fd713-e734-4873-9236-2e3187cd5b2f",
+                "employeeNumber": "e05",
+                "employeeName": "James Smith"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "7be3b0ad-af45-47af-b963-e3100407591a",
+            "employee": {
+                "id": "749dd11c-e527-49fa-8c22-09f019b53f04",
+                "employeeNumber": "e06",
+                "employeeName": "Kimberly Torres"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-02T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "20fd6ddb-7ac9-4af0-a2cd-394429509caa",
+            "employee": {
+                "id": "8897aeb1-f9ef-467d-9239-61cd90254a2f",
+                "employeeNumber": "e07",
+                "employeeName": "Richard Miller"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-03T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "7f95dbab-fb06-4920-ae1b-22b5a20813ee",
+            "employee": {
+                "id": "fcf01587-586b-4083-bc85-c12465e9d4d9",
+                "employeeNumber": "e08",
+                "employeeName": "Daniel Lopez"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-04T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "7ef25f2b-7cf1-4cd8-ac21-1fc942a07678",
+            "employee": {
+                "id": "912ee63d-f56c-4d7a-8411-7f4c8c104f3c",
+                "employeeNumber": "E3",
+                "employeeName": "Mary Smith"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-05T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "2a707de6-9fec-423a-80b9-992a61a1917a",
+            "employee": {
+                "id": "5728660d-d7b4-4f2f-ba5a-dccb52df6ddb",
+                "employeeNumber": "US10",
+                "employeeName": "Joseph Davis"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-07T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "1c8f43ad-5086-4deb-9faa-3fb459068f2b",
+            "employee": {
+                "id": "f4dd7705-df8c-46d5-a86c-8c14fcce9e10",
+                "employeeNumber": "US4",
+                "employeeName": "Susan Miller"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-10T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "e5e2190c-61a7-4d76-a412-d668fed30764",
+            "employee": {
+                "id": "b7b43006-ec13-4f50-b329-ab772f1047ba",
+                "employeeNumber": "US5",
+                "employeeName": "Karen Robinson"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-11T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "35087244-5ca3-4493-8e0c-c8d9133a7cd5",
+            "employee": {
+                "id": "9195f58d-3b3d-44e0-8868-8940a0848d1a",
+                "employeeNumber": "US6",
+                "employeeName": "Matthew Allen"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-12T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "addedcd6-e22d-4a9e-89b5-e36f2d3105a2",
+            "employee": {
+                "id": "01af7690-1a0d-4776-86da-5c539a6ec573",
+                "employeeNumber": "US7",
+                "employeeName": "Nancy Lopez"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-13T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "506e484b-6ec7-4bd3-9bdf-123d7b1e7dd4",
+            "employee": {
+                "id": "cde26885-2814-4e2b-b849-7a6bc5b21764",
+                "employeeNumber": "US8",
+                "employeeName": "Jennifer Thompson"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-14T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "dc901e7a-c3ef-499f-abda-433b1e7f9218",
+            "employee": {
+                "id": "9a6e694f-5e88-430c-8abb-04969db5198e",
+                "employeeNumber": "US9",
+                "employeeName": "John Johnson"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-15T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "9b64f7a6-6018-4c82-b854-40a296cb0ef8",
+            "employee": {
+                "id": "ee0b0b95-d7d3-40a2-8859-8e872aa8136c",
+                "employeeNumber": "e09",
+                "employeeName": "Michelle Flores"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "c48d891c-b577-4c9e-947d-026dc67a9bf8",
+            "employee": {
+                "id": "47477b00-29e7-4f7e-96f8-a6c0b3a15936",
+                "employeeNumber": "e10",
+                "employeeName": "Michael White"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "051900e2-7acc-4800-9ac9-1a53455e4280",
+            "employee": {
+                "id": "74d13f96-7c1c-448a-8c95-591cf793229c",
+                "employeeNumber": "e11",
+                "employeeName": "Kimberly Taylor"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "f7091ed3-d551-470c-90a8-8c8baf3cf33a",
+            "employee": {
+                "id": "7a4f4221-f9c5-4a54-a3eb-825c4eb661c6",
+                "employeeNumber": "e12",
+                "employeeName": "Michelle Martin"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "65e6ea78-9e02-4762-9140-97352c566f9c",
+            "employee": {
+                "id": "311cbb22-1cc6-430f-b963-214d3f66ae1a",
+                "employeeNumber": "E2",
+                "employeeName": "Christopher Walker"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "f382197e-a0f9-4afa-9a58-63cb310fbca6",
+            "employee": {
+                "id": "4d5c1bae-4d4b-40e3-b04d-d2303a1c1774",
+                "employeeNumber": "UK2",
+                "employeeName": "Matthew Gonzalez"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "3c7f7ee1-fdbd-441b-84b6-b300321eac84",
+            "employee": {
+                "id": "860cedf7-ab5c-43bd-91f4-0be711ef13b6",
+                "employeeNumber": "UK3",
+                "employeeName": "Thomas Rodriguez"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "4e26a3c7-0cea-454a-ba70-ca9a83b3a82d",
+            "employee": {
+                "id": "e8af918b-a3e9-491a-932b-763a94339c4b",
+                "employeeNumber": "UK4",
+                "employeeName": "Margaret King"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "70be6e63-cc9f-4331-ac3f-ad68c05c5eb1",
+            "employee": {
+                "id": "0552e7e8-b525-41a0-8fc4-8dc3369ea156",
+                "employeeNumber": "UK5",
+                "employeeName": "William Jones"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "f26112ad-6cbe-431d-a744-59a964234cbf",
+            "employee": {
+                "id": "03a30b5b-6676-4b31-9af8-c7c91f8501aa",
+                "employeeNumber": "UK6",
+                "employeeName": "William Jones"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "2708afe8-5c61-4c92-9d16-14d42e2c7480",
+            "employee": {
+                "id": "289b2bc0-b808-4936-a690-fef4d8327683",
+                "employeeNumber": "UK7",
+                "employeeName": "Anthony King"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "387347e0-6c05-4032-b7f8-581726bb5b6c",
+            "employee": {
+                "id": "47bb4e0d-eef8-46b2-9b32-7c31ec6b25ea",
+                "employeeNumber": "UK8",
+                "employeeName": "Charles Robinson"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "487d0dd3-2c4a-4733-b2c8-032aa3b83ca3",
+            "employee": {
+                "id": "42756db1-c2e1-44e0-af8e-8bc4e239bb30",
+                "employeeNumber": "Uk9",
+                "employeeName": "Michael White"
+            },
+            "ctc": 80000,
+            "gross": 80000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 16000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 24000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "ca612048-6e19-48e6-b85c-8e3255aa2fef",
+            "employee": {
+                "id": "a875c90e-bc5c-442a-a9d1-f1215535c5fa",
+                "employeeNumber": "SE2",
+                "employeeName": "Donald Thomas"
+            },
+            "ctc": 60000,
+            "gross": 60000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-01-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 30000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 12000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 18000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "8b3e6f01-c385-46eb-906e-15ea7932afbf",
+            "employee": {
+                "id": "55fc64ee-bef9-4a50-8514-47285a0da164",
+                "employeeNumber": "e04",
+                "employeeName": "Richard Miller"
+            },
+            "ctc": 400000,
+            "gross": 400000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-05-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 200000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 80000
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 10000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 110000
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "4e2fdbdd-a616-4217-9193-3e073e5a3b1d",
+            "employee": {
+                "id": "cdf866dd-68f1-4b87-869d-bdc2cb1b3874",
+                "employeeNumber": "1013",
+                "employeeName": "Margaret King"
+            },
+            "ctc": 1200000,
+            "gross": 1200000,
+            "remunerationType": 3,
+            "effectiveFrom": "2023-11-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 600000
+                },
+                {
+                    "id": "71ab9780-037f-4f6f-b657-b16de2385b39",
+                    "name": "food",
+                    "title": "Food Coupons",
+                    "amount": 36000
+                },
+                {
+                    "id": "00bc16f5-2cd4-4fb7-85c1-64d65c7316ac",
+                    "name": "professional",
+                    "title": "Professional Allowance",
+                    "amount": 36000
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 360000
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 60000
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 108000
+                }
+            ],
+            "deductions": []
+        },
+        {
+            "id": "00d88b7d-8642-4f60-99c6-d6f68b3894ac",
+            "employee": {
+                "id": "7451f262-fb1b-4065-9963-be2c47b7c017",
+                "employeeNumber": "E1",
+                "employeeName": "Sandra Anderson"
+            },
+            "ctc": 500000,
+            "gross": 500000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 200000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 100000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 176300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "8bbb79cc-1342-4f03-b09b-d86d61852714",
+            "employee": {
+                "id": "a08cfbf0-11a7-405e-bc3a-8af2ef412c5d",
+                "employeeNumber": "e03",
+                "employeeName": "Anthony King"
+            },
+            "ctc": 100000,
+            "gross": 100000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-03-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "16e2438a-8bf5-4a0f-be0c-ccc1df3f0287",
+                    "name": "ded38389-b50e-46fb-a6d2-9130abedded7",
+                    "title": "Bonus1",
+                    "amount": 3000
+                },
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 40000
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 20000
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 1500
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 16300
+                }
+            ],
+            "deductions": [
+                {
+                    "id": "cca4e3fc-4470-4a83-bbd2-fd4e3900576e",
+                    "name": "6f753c24-36e7-4a0e-9c36-aa5b02588797",
+                    "title": "PF Admin Charge",
+                    "amount": 150
+                }
+            ]
+        },
+        {
+            "id": "7f3b20cd-b65b-414e-8c52-04ff777743d1",
+            "employee": {
+                "id": "ef9344a9-27f8-4f01-b829-2736b1f6f78d",
+                "employeeNumber": "e16",
+                "employeeName": "Anthony King"
+            },
+            "ctc": 69000,
+            "gross": 69000,
+            "remunerationType": 3,
+            "effectiveFrom": "2024-04-01T00:00:00",
+            "earnings": [
+                {
+                    "id": "47f98d11-8ec3-459d-8087-e184038ac0be",
+                    "name": "basic",
+                    "title": "Basic",
+                    "amount": 27600
+                },
+                {
+                    "id": "04540c65-725b-418c-ab90-7425dbf71171",
+                    "name": "transport",
+                    "title": "Conveyance Allowance",
+                    "amount": 19200
+                },
+                {
+                    "id": "6ede9165-311c-4adf-a34f-ce896869388c",
+                    "name": "hra",
+                    "title": "HRA",
+                    "amount": 8280
+                },
+                {
+                    "id": "0dda489d-4b39-4cfc-8e18-0013fc6037e9",
+                    "name": "medical",
+                    "title": "Medical Allowance",
+                    "amount": 150
+                },
+                {
+                    "id": "7381657f-3f75-434d-88c1-5724e0934f30",
+                    "name": "travel",
+                    "title": "Travel Reimbursement (LTA)",
+                    "amount": 10350
+                },
+                {
+                    "id": "9cef78fe-55eb-47e4-95e6-2ee89e65b053",
+                    "name": "special",
+                    "title": "Special Allowance",
+                    "amount": 3420
+                }
+            ],
+            "deductions": []
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/payroll/salaries?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/payroll/salaries?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 82,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

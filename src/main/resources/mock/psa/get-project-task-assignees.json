@@ -1,0 +1,127 @@
+{
+    "data": [
+        {
+            "projectId": "97fb2578-c000-4ad0-9757-d4b0dba65f4c",
+            "name": "Task 55",
+            "description": "Project 555",
+            "taskType": 0,
+            "taskBillingType": 1,
+            "assignedTo": [
+                {
+                    "id": "17b28efc-ad5c-41ef-83fa-86142aa6f8dc",
+                    "employeeNumber": "7",
+                    "employeeName": "Michael White"
+                },
+                {
+                    "id": "22af8d5c-6bf3-46b6-8515-38284b99e144",
+                    "employeeNumber": "4",
+                    "employeeName": "Sandra Anderson"
+                },
+                {
+                    "id": "23d46b63-e7cc-44b2-8479-6b8e999fc764",
+                    "employeeNumber": "3",
+                    "employeeName": "Ashley Scott"
+                }
+            ],
+            "startDate": "2023-08-04T00:00:00Z",
+            "endDate": "2023-08-30T00:00:00Z",
+            "estimatedHours": 139.5,
+            "id": "613cf6b1-eb01-4446-99a2-e78fbc175324"
+        },
+        {
+            "projectId": "97fb2578-c000-4ad0-9757-d4b0dba65f4c",
+            "name": "Task 556",
+            "description": "Project 555",
+            "taskType": 0,
+            "taskBillingType": 1,
+            "assignedTo": [
+                {
+                    "id": "0a1a5c04-0be9-48b1-82bf-5de801bdb722",
+                    "employeeNumber": "2",
+                    "employeeName": "Margaret Wilson"
+                },
+                {
+                    "id": "17b28efc-ad5c-41ef-83fa-86142aa6f8dc",
+                    "employeeNumber": "7",
+                    "employeeName": "Michael White"
+                },
+                {
+                    "id": "22af8d5c-6bf3-46b6-8515-38284b99e144",
+                    "employeeNumber": "4",
+                    "employeeName": "Sandra Anderson"
+                },
+                {
+                    "id": "23d46b63-e7cc-44b2-8479-6b8e999fc764",
+                    "employeeNumber": "3",
+                    "employeeName": "Ashley Scott"
+                }
+            ],
+            "startDate": "2023-08-04T00:00:00Z",
+            "endDate": "2023-08-30T00:00:00Z",
+            "estimatedHours": 139.5,
+            "id": "729b6b79-dd00-4c1b-a87c-593bf80f0cab"
+        },
+        {
+            "projectId": "97fb2578-c000-4ad0-9757-d4b0dba65f4c",
+            "name": "Task 77",
+            "description": "Project BB",
+            "taskType": 0,
+            "taskBillingType": 1,
+            "assignedTo": [
+                {
+                    "id": "0a1a5c04-0be9-48b1-82bf-5de801bdb722",
+                    "employeeNumber": "2",
+                    "employeeName": "Margaret Wilson"
+                },
+                {
+                    "id": "17b28efc-ad5c-41ef-83fa-86142aa6f8dc",
+                    "employeeNumber": "7",
+                    "employeeName": "Michael White"
+                },
+                {
+                    "id": "22af8d5c-6bf3-46b6-8515-38284b99e144",
+                    "employeeNumber": "4",
+                    "employeeName": "Sandra Anderson"
+                }
+            ],
+            "startDate": "2023-08-03T00:00:00Z",
+            "endDate": "2023-08-27T00:00:00Z",
+            "estimatedHours": 137.5,
+            "id": "abeac287-3fda-4c9f-8e5d-2d6b0bc5100b"
+        },
+        {
+            "projectId": "97fb2578-c000-4ad0-9757-d4b0dba65f4c",
+            "name": "Task 5",
+            "description": "Project AA",
+            "taskType": 0,
+            "taskBillingType": 1,
+            "assignedTo": [
+                {
+                    "id": "0a1a5c04-0be9-48b1-82bf-5de801bdb722",
+                    "employeeNumber": "2",
+                    "employeeName": "Margaret Wilson"
+                },
+                {
+                    "id": "22af8d5c-6bf3-46b6-8515-38284b99e144",
+                    "employeeNumber": "4",
+                    "employeeName": "Sandra Anderson"
+                }
+            ],
+            "startDate": "2023-08-03T00:00:00Z",
+            "endDate": "2023-08-30T00:00:00Z",
+            "estimatedHours": 131.5,
+            "id": "add379dd-cae6-4e08-a894-526c456cdeab"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/psa/projects/97fb2578-c000-4ad0-9757-d4b0dba65f4c/tasks?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/psa/projects/97fb2578-c000-4ad0-9757-d4b0dba65f4c/tasks?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 4,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

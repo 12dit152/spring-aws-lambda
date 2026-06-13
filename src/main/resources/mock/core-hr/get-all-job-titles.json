@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "Quality Analyst",
+            "description": "Describe",
+            "id": "f3f9425a-fdee-499d-8d1f-5966697e6125"
+        },
+        {
+            "name": "Developer",
+            "description": "Developer",
+            "id": "fe75fa73-a7f7-4606-8356-5404b1529f5d"
+        },
+        {
+            "name": "Product Specialist",
+            "description": "Product Specialist",
+            "id": "035ad031-d4a1-427e-9827-3ad049205781"
+        },
+        {
+            "name": "Java Developer",
+            "description": null,
+            "id": "99b581e2-3933-4534-bfd5-2e53aac4f4cb"
+        },
+        {
+            "name": "Product Designer",
+            "description": "Just guy just thinks and doesnt work",
+            "id": "dec4f767-cad0-46c6-b7dc-7dc2e8d913c9"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hris/jobtitles?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hris/jobtitles?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 5,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

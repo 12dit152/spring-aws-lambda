@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "id": "85cc10f8-a38e-4c2c-a1f3-c6c4bb46059c",
+            "name": "Holidays-India"
+        },
+        {
+            "id": "8993276f-e6d0-41a8-a7ef-e503a58cf873",
+            "name": "Holidays - SEA"
+        },
+        {
+            "id": "2133abc3-5220-43ce-bcf2-c1bbf0ac60d5",
+            "name": "Holidays - UK"
+        },
+        {
+            "id": "846ab38f-3d84-4d48-b059-07af86e1228e",
+            "name": "Holidays - US"
+        },
+        {
+            "id": "5476ec4e-66a5-4af8-a5dc-0cd177fdcf64",
+            "name": "Holidays - ME"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/holidayscalendar?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/holidayscalendar?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 5,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

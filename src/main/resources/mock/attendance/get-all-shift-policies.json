@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "id": "ccacc435-ea7b-4c22-84a9-c2de057fdedd",
+            "name": "Flexible Shift"
+        },
+        {
+            "id": "a123dd8d-0fae-4771-9d09-23ac76b810de",
+            "name": "Afternoon"
+        },
+        {
+            "id": "db360e90-45bd-4662-a0be-61cccb2f5e55",
+            "name": "Night"
+        },
+        {
+            "id": "e19bf5ea-ee6d-4741-9f89-8ce4654b2441",
+            "name": "Morning"
+        },
+        {
+            "id": "f84a201a-69fa-4c08-9aec-4cae8ae3f013",
+            "name": "General"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/shiftpolicies?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/shiftpolicies?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 8,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}
