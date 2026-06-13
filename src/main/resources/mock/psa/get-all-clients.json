@@ -1,0 +1,107 @@
+{
+    "data": [
+        {
+            "name": "Calilm John",
+            "code": "1123",
+            "description": "wf",
+            "billingAddress": {
+                "addressLine1": "6982 Park Ave",
+                "addressLine2": "",
+                "countryCode": "IN",
+                "city": "Charlotte",
+                "state": "rangareddy",
+                "zip": "85294"
+            },
+            "clientContacts": [
+                {
+                    "clientId": "44f638f6-a10d-4837-a7b7-c41e8b6569ee",
+                    "name": "Xavier",
+                    "email": "robert.williams64@gmail.com",
+                    "phone": "892374000"
+                }
+            ],
+            "id": "44f638f6-a10d-4837-a7b7-c41e8b6569ee"
+        },
+        {
+            "name": "Karthik",
+            "code": "SPEC",
+            "description": "rfg",
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "43c7b9e9-8c05-4a72-aa65-f16ab97760cf"
+        },
+        {
+            "name": "Judith Johnson",
+            "code": null,
+            "description": null,
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "7dff4f47-5f57-4fef-992c-acd9a5ac50d2"
+        },
+        {
+            "name": "dfcg",
+            "code": null,
+            "description": null,
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "9f992b8d-8f7b-4531-96f8-78007e233a6c"
+        },
+        {
+            "name": "ertfg",
+            "code": "ert",
+            "description": "redtgf",
+            "billingAddress": {
+                "addressLine1": "772 Park Ave",
+                "addressLine2": "Apt 48",
+                "countryCode": "AS",
+                "city": "Austin",
+                "state": "ebrbrt",
+                "zip": "23317"
+            },
+            "clientContacts": [
+                {
+                    "clientId": "a05194b6-95d0-4601-a608-429e31d0a2e7",
+                    "name": "fwr",
+                    "email": "jennifer.williams45@yahoo.com",
+                    "phone": "wet"
+                }
+            ],
+            "id": "a05194b6-95d0-4601-a608-429e31d0a2e7"
+        },
+        {
+            "name": "dfcgf",
+            "code": "s65",
+            "description": "sfdzc",
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "cc1824bd-5958-4dce-8b67-3717454f2e3b"
+        },
+        {
+            "name": "sam",
+            "code": "sample",
+            "description": null,
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "b03b5213-ad03-40ac-9d43-945e55331a03"
+        },
+        {
+            "name": "c1name",
+            "code": "c1123123",
+            "description": null,
+            "billingAddress": null,
+            "clientContacts": [],
+            "id": "229d9ab5-0525-4fa7-8a0f-b00d614e5e3d"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/psa/clients?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/psa/clients?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 8,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

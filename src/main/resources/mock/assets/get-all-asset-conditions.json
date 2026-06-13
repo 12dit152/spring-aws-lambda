@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "id": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "name": "Good"
+        },
+        {
+            "id": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "name": "Fair"
+        },
+        {
+            "id": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "name": "Poor"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/assets/conditions?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/assets/conditions?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 3,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

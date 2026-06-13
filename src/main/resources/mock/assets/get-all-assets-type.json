@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "id": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "name": "iPhone 13"
+        },
+        {
+            "id": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "name": "iPhone 14"
+        },
+        {
+            "id": "848d3f2a-680e-4f71-a19d-2f3ced0f2042",
+            "name": "MAC"
+        },
+        {
+            "id": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "name": "Laptop"
+        },
+        {
+            "id": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "name": "CPU"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/assets/types?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/assets/types?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 5,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

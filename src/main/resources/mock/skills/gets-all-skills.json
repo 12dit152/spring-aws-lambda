@@ -1,0 +1,67 @@
+{
+    "data": [
+        {
+            "id": "11c0480c-4676-4fe5-872b-365f009714f7",
+            "name": "Code Review"
+        },
+        {
+            "id": "5137c228-265d-406d-941e-349ec9810127",
+            "name": "Coding and Debugging"
+        },
+        {
+            "id": "b935e4fe-c78a-4c0e-854c-0f3558191d9b",
+            "name": "Managerial Skills"
+        },
+        {
+            "id": "bc7238f4-055d-4670-bcea-c10a361c6dba",
+            "name": "Adaptability"
+        },
+        {
+            "id": "8211ca7d-8130-4175-8df7-012cd5232516",
+            "name": "Time Management"
+        },
+        {
+            "id": "8483bb36-2158-4e8c-8d93-585ebf520c3b",
+            "name": "Conflict Management"
+        },
+        {
+            "id": "49a6f6ee-921c-4eef-8b1b-1b5e982e80b6",
+            "name": "Mentoring"
+        },
+        {
+            "id": "37ec48d0-a447-4d6b-8b04-72d51bb8bae9",
+            "name": "Pressure Management"
+        },
+        {
+            "id": "a0cdfed0-de80-4c70-9c55-ce4da0a19198",
+            "name": "Structural Analysis"
+        },
+        {
+            "id": "bd3ac15d-4628-4397-b961-a80a10257e08",
+            "name": "Attention to detail"
+        },
+        {
+            "id": "8cbcf4ca-b06d-485e-8c6f-cf4e7c191423",
+            "name": "Creativity"
+        },
+        {
+            "id": "88df72a6-b628-4ed5-b22a-70d5ea5197a2",
+            "name": "Leadership"
+        },
+        {
+            "id": "04e2de7b-8ad0-4c11-8d16-f2c6e2e6f9ee",
+            "name": "Data Analysis"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hris/skills?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hris/skills?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 13,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

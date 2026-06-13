@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": "f33900ae-9175-4cbe-9d5e-37ef49cb5102",
+            "name": "Previous Experience",
+            "attributes": [
+                {
+                    "id": "3f17b54c-a87d-411c-be13-95c0cf2f4a60",
+                    "title": "Company Name",
+                    "type": "TextBox",
+                    "value": "Google "
+                },
+                {
+                    "id": "7c81d6b1-9b87-4012-aa02-4300bd76188c",
+                    "title": "Job Title",
+                    "type": "TextBox",
+                    "value": "SDET 2 "
+                },
+                {
+                    "id": "86f3414c-3e3a-40c7-b471-ccc2f88f059b",
+                    "title": "Date of Joining",
+                    "type": "Date",
+                    "value": "01 Nov, 2022"
+                },
+                {
+                    "id": "8f0245e5-8348-485f-a029-78508d3baa4e",
+                    "title": "Date of Relieving",
+                    "type": "Date",
+                    "value": "01 Aug, 2024"
+                },
+                {
+                    "id": "e386c858-da6e-4038-9254-3310b695929e",
+                    "title": "Location",
+                    "type": "TextBox",
+                    "value": "Hyderabad "
+                },
+                {
+                    "id": "5e2c254a-256b-44e4-8fb6-03846baa4008",
+                    "title": "Description",
+                    "type": "TextArea",
+                    "value": null
+                }
+            ],
+            "attachments": [
+                {
+                    "id": "4f0f8e90-2c47-4dd8-8c20-d98e7e751e27",
+                    "name": "Project Billing By Resource Summary - DEMO.xlsx"
+                }
+            ]
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hris/employees/bb3175e4-4cdb-425f-b034-b49069d53d6e/documenttypes/448b210d-7fad-4dba-9422-d9ae61048b6a/documents?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hris/employees/bb3175e4-4cdb-425f-b034-b49069d53d6e/documenttypes/448b210d-7fad-4dba-9422-d9ae61048b6a/documents?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 1,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

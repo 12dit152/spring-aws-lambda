@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "id": "aK18xxncUqxw",
+            "title": "Quality Analyst",
+            "description": "<p><strong>&nbsp;</strong></p><p>We are looking for a liable bank teller to process all transactions accurately and efficiently in accordance with established policies and procedures. The successful candidate will be the \u201cfrontline\u201d of our bank and will play a fundamental role in achieving our customer satisfaction and revenue growth objectives. You must be comfortable making dozens of transactions daily, communicate with different types of clients and sell bank\u2019s products/services.</p><p>&nbsp;</p><p><strong>Your responsibilities:&nbsp;</strong></p><p><strong>&nbsp;</strong></p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Conduct dozens of bank\u2019s routine transactions within time limits and established guidelines (cash checks, accept deposits and loan payments, process withdrawals etc.)</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assess customer needs and introduce new products and services</p><p>(credit cards, saving bonds etc.)</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Make sales referrals, suggest alternate channels and cross-sell products and services</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go the \u201cextra mile\u201d to build trust relationships, customer loyalty and satisfaction</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comply with regulatory requirements</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manage risk in every transaction and detect fraudulent transactions to prevent losses</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resolve customers\u2019 issues and provide relevant information \u2022&nbsp;&nbsp;Using software to track bank information and generate reports.</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Following all bank financial and security regulations and procedures.</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tracking, recording, reporting, and storing information related to transactions, bank supplies, and customers, ensuring all information is accurate and complete.</p><p>&nbsp;</p><p><strong>Skill sets/Experience we require: </strong></p><p><strong>&nbsp;</strong></p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proven working experience in banking, personal banking, retail banking or financial services</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Basic PC knowledge and familiarity with electronic equipment (e.g. cash drawers, receipt validators, money counters)</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strong communication and time management skills</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer satisfaction-oriented</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attention to detail and mathematical skills</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Excellent sales skills</p><p>&nbsp;</p><p><strong>Pedigree:&nbsp;</strong></p><p>&nbsp;</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High school degree or equivalent</p><p>\u2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelor\u2019s in Finance, Banking or equivalent field&nbsp;</p>",
+            "noOfOpenings": "2",
+            "departmentName": "HR & Management",
+            "jobType": "2",
+            "orgJobId": null,
+            "jobLocations": [
+                {
+                    "name": "Meghalaya",
+                    "city": "Fort Worth",
+                    "state": "DN",
+                    "countryCode": "IN",
+                    "countryName": null
+                }
+            ],
+            "targetHireDate": "2020-12-09T00:00:00",
+            "status": 1,
+            "createdBy": "paul34@gmail.com",
+            "createdOn": "2023-09-28T06:03:34",
+            "publishedBy": "Anshul Srivastav",
+            "publishedOn": "2023-09-28T06:15:19",
+            "experience": null,
+            "totalHiredPositions": "0"
+        },
+        {
+            "id": "wmgJTKpJzJJH",
+            "title": "UX Designer",
+            "description": "<p>ok ok ok ok ok</p>",
+            "noOfOpenings": "10",
+            "departmentName": "UX Department",
+            "jobType": "2",
+            "orgJobId": null,
+            "jobLocations": [
+                {
+                    "name": "Andhra Pradesh",
+                    "city": "Fort Worth",
+                    "state": "AP",
+                    "countryCode": "IN",
+                    "countryName": "India"
+                }
+            ],
+            "targetHireDate": "2021-09-30T00:00:00",
+            "status": 1,
+            "createdBy": "paul34@gmail.com",
+            "createdOn": "2021-09-24T05:07:15",
+            "publishedBy": "Anshul Srivastav",
+            "publishedOn": "2021-09-24T05:07:15",
+            "experience": "2",
+            "totalHiredPositions": "0"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hire/jobs?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hire/jobs?pageNumber=1&pageSize=100",
+    "nextPage": null,
+    "previousPage": null,
+    "totalRecords": 2,
+    "totalPages": 1,
+    "status": 200,
+    "succeeded": true,
+    "message": "Success",
+    "errors": null
+}

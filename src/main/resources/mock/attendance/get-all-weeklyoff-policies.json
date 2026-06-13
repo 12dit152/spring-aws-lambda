@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "id": "3e30252e-dda9-423e-ba5b-4da2bbdcead7",
+            "name": "Working Day"
+        },
+        {
+            "id": "a23e3b3e-bba7-4b88-9de2-8184395ccbae",
+            "name": "Full Day Weekly Off"
+        },
+        {
+            "id": "40b71c5b-eb00-4042-9516-42c18340a82e",
+            "name": "Weekends-ME"
+        },
+        {
+            "id": "e036ed28-4f82-4858-bb2a-e5cf724c6702",
+            "name": "Weekends-US"
+        },
+        {
+            "id": "5ae9c892-e7f6-41d6-bfe6-7e5401bcdd37",
+            "name": "Weekends-UK"
+        },
+        {
+            "id": "e863b45b-f160-4e59-8bec-96493a6eb69a",
+            "name": "Weekends"
+        },
+        {
+            "id": "c664a08b-d1ea-4917-ac32-58c5ced55dd4",
+            "name": "Weekend-SEA"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/weeklyoffpolicies?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/weeklyoffpolicies?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 8,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

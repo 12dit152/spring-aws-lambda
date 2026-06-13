@@ -1,0 +1,11 @@
+{
+    "data": {
+        "status": true,
+        "candidate": null,
+        "message": "Candidate updated successfully"
+    },
+    "status": 200,
+    "succeeded": true,
+    "message": "Success",
+    "errors": null
+}

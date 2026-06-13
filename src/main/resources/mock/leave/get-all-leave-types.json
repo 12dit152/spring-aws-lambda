@@ -1,0 +1,93 @@
+{
+    "data": [
+        {
+            "identifier": "feb73dda-02da-4b42-a033-9c2397df40e1",
+            "name": "Sick Leave",
+            "description": "This is when an employee falls sick",
+            "isPaid": true
+        },
+        {
+            "identifier": "8c4163d0-c52e-4ab1-a79b-afe30d85f211",
+            "name": "Paid Leave",
+            "description": "This leave will be paid when not used",
+            "isPaid": true
+        },
+        {
+            "identifier": "dc849b8a-a8b9-496d-8dfc-5ff5818e91c0",
+            "name": "Unpaid Leave",
+            "description": "Loss of pay",
+            "isPaid": false
+        },
+        {
+            "identifier": "8ac18c36-f236-4450-88b4-4211ab4f9dc6",
+            "name": "Floater Leave",
+            "description": "A floating holiday provides an employee with paid time off to observe a holiday",
+            "isPaid": true
+        },
+        {
+            "identifier": "2695151d-1b57-4969-9d78-4f227a7defce",
+            "name": "Special Leave",
+            "description": "Special leave is a paid time off to observe an event, such as employees birthday, marriage anniversary and Joining day",
+            "isPaid": true
+        },
+        {
+            "identifier": "e08fc6df-2eb5-4ae2-9b37-e71c4af54724",
+            "name": "Maternity Leave",
+            "description": "Female employees who have been working with the company for not less than 365 days will be eligible for 26 weeks / 182 days of paid maternity leave, up to two confinements. To facilitate arrangements for cover of duties, application for maternity leave will have to be made not less than two months prior to the date of commencement of leave.  Absence from work due to miscarriage or any other illness arising out of pregnancy will not be considered as maternity leave, but as normal medical leave.",
+            "isPaid": true
+        },
+        {
+            "identifier": "0479d151-2c3f-4b9e-a235-e79ec388341a",
+            "name": "Paternity Leave",
+            "description": "Male Employees will be granted paternity leave for 5 working days. The leave should be availed within three weeks time of the birth of the child. This will be applicable up to a maximum of two confinements",
+            "isPaid": true
+        },
+        {
+            "identifier": "5641785e-c4d0-4a51-b50b-4b0d509cf986",
+            "name": "Bereavement Leave",
+            "description": "Bereavement leave will be provided for any untoward incident at home or within the immediate family of the employees. A week of bereavement leave will be provided.",
+            "isPaid": true
+        },
+        {
+            "identifier": "e065aa02-ed87-4a7d-bba1-2c8fe05db00f",
+            "name": "Casual Leave",
+            "description": "Casual leave is a general leave. \nThis leave is for an employee to attend to his/her personal tasks, etc. \nThe leave has to be applied and approved at least 2 days in advance",
+            "isPaid": true
+        },
+        {
+            "identifier": "04897b2b-d7fb-40e4-ada7-4e9cefde733b",
+            "name": "Comp Offs",
+            "description": "This leave type is used to provide additional leave for the work done by employee on off/extrawork/ etc.",
+            "isPaid": true
+        },
+        {
+            "identifier": "3ad7dbef-0f27-48fd-803d-55b788e74ae3",
+            "name": "test",
+            "description": "gtrrr",
+            "isPaid": true
+        },
+        {
+            "identifier": "a626c9bf-f506-4aeb-975f-12b8d8d0e471",
+            "name": "Abc",
+            "description": null,
+            "isPaid": true
+        },
+        {
+            "identifier": "f97ac5ab-3fc7-4c61-8e4d-6b9ac017176f",
+            "name": "test 3",
+            "description": null,
+            "isPaid": true
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/leavetypes?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/leavetypes?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 13,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

@@ -1,0 +1,17 @@
+{
+    "data": [
+        true
+    ],
+    "pageNumber": 1,
+    "pageSize": 1,
+    "firstPage": null,
+    "lastPage": null,
+    "nextPage": null,
+    "previousPage": null,
+    "totalRecords": 1,
+    "totalPages": 1,
+    "status": 200,
+    "succeeded": true,
+    "message": "Candidate Added to job succesfully",
+    "errors": null
+}

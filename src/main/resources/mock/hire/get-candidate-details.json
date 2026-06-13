@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "id": "50ca8e28-5c41-413a-b32b-656ab8ccd76a",
+            "firstName": "Mark",
+            "lastName": "Anderson",
+            "middleName": null,
+            "gender": 1,
+            "email": "linda.white27@company.com",
+            "mobilePhone": {
+                "countryCode": "+91",
+                "number": "9887654321"
+            },
+            "educationDetails": [],
+            "experienceDetails": [],
+            "skills": [],
+            "additionalCandidateDetails": {
+                "date of Birth": "Not Available",
+                "experience (in years)": "0y 0m",
+                "current Salary": "Not Available",
+                "expected Salary": "Not Available",
+                "available To Join (in days)": "Not Available",
+                "location Preference": "Not Available",
+                "current Location": "Not Available"
+            },
+            "jobApplicationDetails": {
+                "jobHiringStageId": "9775d3e2-7318-4a3a-b939-afe345ada1cc",
+                "movedtoStageOn": "10/26/2023",
+                "screeningQuestionsResponse": {},
+                "appliedOn": "2023-10-26T06:17:50",
+                "status": 0,
+                "sourcedBy": "Anshul Srivastav",
+                "sourceTitle": "Linkedin",
+                "assignedTo": "Anshul Srivastav",
+                "assignedOn": "2023-10-26T06:17:50"
+            }
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hire/jobs/aK18xxncUqxw/candidates?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hire/jobs/aK18xxncUqxw/candidates?pageNumber=1&pageSize=100",
+    "nextPage": null,
+    "previousPage": null,
+    "totalRecords": 1,
+    "totalPages": 1,
+    "status": 200,
+    "succeeded": true,
+    "message": "Success",
+    "errors": null
+}

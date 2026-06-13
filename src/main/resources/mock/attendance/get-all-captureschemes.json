@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "id": "65670d81-2dad-4bca-bd53-22ab4ec0520e",
+            "name": "India-Capture Scheme"
+        },
+        {
+            "id": "e0949ec8-a968-4584-8628-3cac44d706fa",
+            "name": "ME-Capture Scheme"
+        },
+        {
+            "id": "8a80567b-9cec-4df6-b663-bfa597235c8e",
+            "name": "SEA- Capture Scene"
+        },
+        {
+            "id": "e3eab187-2059-4de9-b78d-23613c24010f",
+            "name": "UK- Capture Scheme"
+        },
+        {
+            "id": "d337b582-64c6-4b1f-9fd9-949d8f51286d",
+            "name": "US- Capture Scheme"
+        },
+        {
+            "id": "8485a99c-35d4-4a80-b564-2404a1273734",
+            "name": "Attendance Capture Scheme"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/capturescheme?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/capturescheme?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 6,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

@@ -1,0 +1,853 @@
+{
+    "data": [
+        {
+            "id": "0127ef0c-5c8c-4132-b39b-0ebf8ef7275c",
+            "assetName": "Laptop",
+            "assetId": "Lap13",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "f455f54f-5c0e-49ff-9406-51c4ea845052",
+                "firstName": "Susan",
+                "lastName": "Gonzalez",
+                "email": "andrew.jackson76@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "03d60c6d-5cc9-46e3-be59-be3383f9ad57",
+            "assetName": "CPU",
+            "assetId": "CPU012",
+            "status": 0,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "1148ae7d-9c6e-4e68-9605-bf02bfedfb1d",
+            "assetName": "CPU",
+            "assetId": "CPU003",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "2ea32ac9-5497-4095-adc3-6dde2b8fb639",
+                "firstName": "Lisa",
+                "lastName": "Miller",
+                "email": "patricia.perez83@company.com"
+            },
+            "assignedOn": "2022-12-01"
+        },
+        {
+            "id": "1b10346c-9c7b-46e5-8f15-d0fa683932c0",
+            "assetName": "Phone",
+            "assetId": "iPhone013",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "f4dd7705-df8c-46d5-a86c-8c14fcce9e10",
+                "firstName": "Ashley",
+                "lastName": "Thompson",
+                "email": "betty.allen45@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "1c878f90-9da9-440b-b741-6275dfcd0399",
+            "assetName": "Phone",
+            "assetId": "iPhone003",
+            "status": 1,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "1c8e10b7-ba99-4eda-b578-3979c7416136",
+            "assetName": "Laptop",
+            "assetId": "Lap14",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "6445ac0b-b262-464b-835b-854048b4d11b",
+                "firstName": "Jennifer",
+                "lastName": "Hill",
+                "email": "anthony.wilson46@outlook.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "2069bafd-2fd0-410c-8b25-2caf6e64b314",
+            "assetName": "Phone",
+            "assetId": "iPhone016",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "01af7690-1a0d-4776-86da-5c539a6ec573",
+                "firstName": "Michelle",
+                "lastName": "Thomas",
+                "email": "jessica.davis55@company.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "24113127-7651-4ce6-9987-193c07cadc83",
+            "assetName": "MAC",
+            "assetId": "MAC01",
+            "status": 0,
+            "assetCategoryId": "68580f05-60ec-44f7-a96d-3b12f364a6b3",
+            "assetTypeId": "848d3f2a-680e-4f71-a19d-2f3ced0f2042",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "2c81969a-5943-436a-8bfb-7c5de8ddd6fa",
+            "assetName": "CPU",
+            "assetId": "CPU017",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "7894257e-4dd2-4bd0-b19e-ddb24ebad176",
+                "firstName": "Susan",
+                "lastName": "Lopez",
+                "email": "william.harris88@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "2cc03669-bc85-4383-b2cf-4bb5e1b112e7",
+            "assetName": "Phone",
+            "assetId": "iPhone002",
+            "status": 1,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "341b8a1b-975f-4e90-a932-b4de0f38db32",
+            "assetName": "Laptop",
+            "assetId": "Lap08",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "f4dd7705-df8c-46d5-a86c-8c14fcce9e10",
+                "firstName": "Ashley",
+                "lastName": "Thompson",
+                "email": "betty.allen45@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "356bf7fb-36d9-45b1-8e98-eb3ef8cf8b7d",
+            "assetName": "Laptop",
+            "assetId": "Lap03",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "d9db5954-7301-4355-b907-bf908862f126",
+                "firstName": "John",
+                "lastName": "Anderson",
+                "email": "mark.wright8@gmail.com"
+            },
+            "assignedOn": "2023-04-06"
+        },
+        {
+            "id": "367955b1-4957-42f1-95ae-462a42966e77",
+            "assetName": "CPU",
+            "assetId": "CPU002",
+            "status": 1,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "38c6660b-ae3e-4cf0-8f7d-9f7a97018b24",
+            "assetName": "CPU",
+            "assetId": "CPU009",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "d9db5954-7301-4355-b907-bf908862f126",
+                "firstName": "John",
+                "lastName": "Anderson",
+                "email": "mark.wright8@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "39f5a604-d46d-44d3-8c2a-f72e27f46b44",
+            "assetName": "Phone",
+            "assetId": "iPhone012",
+            "status": 0,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "3e23f943-052d-425a-b9ba-73ede5260d67",
+            "assetName": "Phone",
+            "assetId": "iPhone015",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "9195f58d-3b3d-44e0-8868-8940a0848d1a",
+                "firstName": "Mary",
+                "lastName": "Rodriguez",
+                "email": "kimberly.torres33@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "4e4a72bd-2164-4941-934f-390ddc5dd691",
+            "assetName": "CPU",
+            "assetId": "CPU014",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "0552e7e8-b525-41a0-8fc4-8dc3369ea156",
+                "firstName": "Thomas",
+                "lastName": "Jones",
+                "email": "robert.thompson44@gmail.com"
+            },
+            "assignedOn": "2023-01-01"
+        },
+        {
+            "id": "54b3d296-5615-4544-a477-41c83b3dc39a",
+            "assetName": "CPU",
+            "assetId": "CPU019",
+            "status": 0,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "5dd8caed-eeec-4e92-93d4-6c0cb30882b8",
+            "assetName": "CPU",
+            "assetId": "CPU001",
+            "status": 1,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "5f80b959-8f5a-4244-9ef8-e2c356b7d35f",
+            "assetName": "CPU",
+            "assetId": "CPU005",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "7bc75665-5e28-4614-a1e9-49c03f0a4feb",
+                "firstName": "Linda",
+                "lastName": "Moore",
+                "email": "anthony.wilson86@outlook.com"
+            },
+            "assignedOn": "2023-01-01"
+        },
+        {
+            "id": "6e4114b0-9b52-45b3-8cd9-7d27a4cf489c",
+            "assetName": "CPU",
+            "assetId": "CPU007",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "2ea32ac9-5497-4095-adc3-6dde2b8fb639",
+                "firstName": "Lisa",
+                "lastName": "Miller",
+                "email": "patricia.perez83@company.com"
+            },
+            "assignedOn": "2023-01-01"
+        },
+        {
+            "id": "71bdb400-697f-4131-90e4-9f00398be731",
+            "assetName": "CPU",
+            "assetId": "CPU006",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "13e900e4-fdd4-4933-822c-47f8abcc0bb7",
+                "firstName": "Kimberly",
+                "lastName": "Ramirez",
+                "email": "matthew.gonzalez64@gmail.com"
+            },
+            "assignedOn": "2022-08-03"
+        },
+        {
+            "id": "72233733-5ae2-435a-859e-ec3844098af4",
+            "assetName": "Laptop",
+            "assetId": "Lap02",
+            "status": 1,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "7243d8f9-5db9-499c-87dc-b689167eb497",
+            "assetName": "Laptop",
+            "assetId": "Lap18",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "e8af918b-a3e9-491a-932b-763a94339c4b",
+                "firstName": "Andrew",
+                "lastName": "Thomas",
+                "email": "robert.thompson84@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "759d3b33-0104-4bf9-b34e-fd3d91da2c0e",
+            "assetName": "Phone",
+            "assetId": "iPhone001",
+            "status": 1,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "77c73312-6ad0-4a0a-be66-38df9dd80e84",
+            "assetName": "Laptop",
+            "assetId": "Lap11",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "01af7690-1a0d-4776-86da-5c539a6ec573",
+                "firstName": "Michelle",
+                "lastName": "Thomas",
+                "email": "jessica.davis55@company.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "782a2520-7164-4984-98d1-668040c12898",
+            "assetName": "Phone",
+            "assetId": "iPhone010",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "aa1195e6-51d4-40fd-9aab-547ba9bda4f2",
+                "firstName": "Lisa",
+                "lastName": "Taylor",
+                "email": "christopher.hernandez80@gmail.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "828e0917-182c-49a5-ad51-953fe4159ca7",
+            "assetName": "Laptop",
+            "assetId": "Lap06",
+            "status": 0,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "86157056-a121-469b-8119-6e2ede60c519",
+            "assetName": "Phone",
+            "assetId": "iPhone006",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "0552e7e8-b525-41a0-8fc4-8dc3369ea156",
+                "firstName": "Thomas",
+                "lastName": "Jones",
+                "email": "robert.thompson44@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "8b581eb0-dc65-40ca-8f42-c280487a517b",
+            "assetName": "Laptop",
+            "assetId": "Lap07",
+            "status": 0,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "8cddada1-365b-416b-badf-7870a0c8f658",
+            "assetName": "Phone",
+            "assetId": "iPhone011",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "2ea32ac9-5497-4095-adc3-6dde2b8fb639",
+                "firstName": "Lisa",
+                "lastName": "Miller",
+                "email": "patricia.perez83@company.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "8dac953a-cf5e-4eae-b51c-dc60a6ffd34f",
+            "assetName": "Phone",
+            "assetId": "iPhone008",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "7451f262-fb1b-4065-9963-be2c47b7c017",
+                "firstName": "Jennifer",
+                "lastName": "Moore",
+                "email": "paul.nguyen14@outlook.com"
+            },
+            "assignedOn": "2023-05-02"
+        },
+        {
+            "id": "91518709-c599-484b-a881-1ec78aad5f51",
+            "assetName": "Laptop",
+            "assetId": "Lap04",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "aa1195e6-51d4-40fd-9aab-547ba9bda4f2",
+                "firstName": "Lisa",
+                "lastName": "Taylor",
+                "email": "christopher.hernandez80@gmail.com"
+            },
+            "assignedOn": "2023-05-02"
+        },
+        {
+            "id": "9259b1aa-315e-41e9-8554-d3bcb366d645",
+            "assetName": "Laptop",
+            "assetId": "Lap16",
+            "status": 0,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "9c749de3-66fe-420e-8820-ea33577ced34",
+            "assetName": "Phone",
+            "assetId": "iPhone009",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "a875c90e-bc5c-442a-a9d1-f1215535c5fa",
+                "firstName": "Mark",
+                "lastName": "Moore",
+                "email": "barbara.garcia51@company.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "a3337fe6-7927-4720-9461-d937c55d8b94",
+            "assetName": "Laptop",
+            "assetId": "Lap05",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "2ea32ac9-5497-4095-adc3-6dde2b8fb639",
+                "firstName": "Lisa",
+                "lastName": "Miller",
+                "email": "patricia.perez83@company.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "a402459d-fbc4-4f4b-9023-0c82e07c4b8b",
+            "assetName": "CPU",
+            "assetId": "CPU008",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "81d48cb6-f0fa-472d-af5d-cce241f7e102",
+                "firstName": "Linda",
+                "lastName": "Moore",
+                "email": "sarah.rodriguez97@yahoo.com"
+            },
+            "assignedOn": "2022-12-02"
+        },
+        {
+            "id": "a9111b4e-f5a7-4683-aa43-b39427a628a3",
+            "assetName": "CPU",
+            "assetId": "CPU013",
+            "status": 0,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "ad34755b-e647-4bb9-b14d-9c4ad8f1b661",
+            "assetName": "MAC",
+            "assetId": "MAC02",
+            "status": 1,
+            "assetCategoryId": "68580f05-60ec-44f7-a96d-3b12f364a6b3",
+            "assetTypeId": "848d3f2a-680e-4f71-a19d-2f3ced0f2042",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "c58d3e7e-0917-46ed-87ff-8894e11faf29",
+            "assetName": "Laptop",
+            "assetId": "Lap10",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "9195f58d-3b3d-44e0-8868-8940a0848d1a",
+                "firstName": "Mary",
+                "lastName": "Rodriguez",
+                "email": "kimberly.torres33@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "c5cd9fd1-9e17-4ad2-b9b0-7e028f560505",
+            "assetName": "CPU",
+            "assetId": "CPU016",
+            "status": 0,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "c7b7913e-5c5a-4a6f-b878-9c56fe25704b",
+            "assetName": "MAC",
+            "assetId": "MAC03",
+            "status": 2,
+            "assetCategoryId": "68580f05-60ec-44f7-a96d-3b12f364a6b3",
+            "assetTypeId": "848d3f2a-680e-4f71-a19d-2f3ced0f2042",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "7bc75665-5e28-4614-a1e9-49c03f0a4feb",
+                "firstName": "Linda",
+                "lastName": "Moore",
+                "email": "anthony.wilson86@outlook.com"
+            },
+            "assignedOn": "2023-01-01"
+        },
+        {
+            "id": "cfb607a1-5f5f-4361-8d6d-284f6c86f9d3",
+            "assetName": "CPU",
+            "assetId": "CPU015",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": {
+                "id": "03a30b5b-6676-4b31-9af8-c7c91f8501aa",
+                "firstName": "Susan",
+                "lastName": "Anderson",
+                "email": "margaret.wilson87@company.com"
+            },
+            "assignedOn": "2023-01-01"
+        },
+        {
+            "id": "d27e1216-39f3-4ad7-b2bc-1a3929903d75",
+            "assetName": "Phone",
+            "assetId": "iPhone014",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "bbf06f07-825e-40b3-959e-6eb46c68b080",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "b7b43006-ec13-4f50-b329-ab772f1047ba",
+                "firstName": "Richard",
+                "lastName": "Jones",
+                "email": "donna.hill77@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "d38c4bbc-58ef-4999-8bae-95629db84465",
+            "assetName": "Phone",
+            "assetId": "iPhone005",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "aa1195e6-51d4-40fd-9aab-547ba9bda4f2",
+                "firstName": "Lisa",
+                "lastName": "Taylor",
+                "email": "christopher.hernandez80@gmail.com"
+            },
+            "assignedOn": "2023-04-04"
+        },
+        {
+            "id": "d3e27bf8-451b-45a3-bd13-48fc3811e741",
+            "assetName": "Laptop",
+            "assetId": "Lap17",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "1f1e54c8-d88d-456d-962d-58bc287d4d5e",
+                "firstName": "Lisa",
+                "lastName": "Gonzalez",
+                "email": "joshua.flores58@outlook.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "d6efe4d9-4c99-449e-8f53-de9a32070c16",
+            "assetName": "Phone",
+            "assetId": "iPhone004",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "d9db5954-7301-4355-b907-bf908862f126",
+                "firstName": "John",
+                "lastName": "Anderson",
+                "email": "mark.wright8@gmail.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "dc275e25-74c6-4e4d-94f0-1b404bc9a171",
+            "assetName": "CPU",
+            "assetId": "CPU020",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "a875c90e-bc5c-442a-a9d1-f1215535c5fa",
+                "firstName": "Mark",
+                "lastName": "Moore",
+                "email": "barbara.garcia51@company.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "ddba7a4d-9008-4915-8cff-6eb67b423789",
+            "assetName": "Laptop",
+            "assetId": "Lap15",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "f8016d24-3efb-4041-9c7a-533f5d2b25ce",
+                "firstName": "Susan",
+                "lastName": "Anderson",
+                "email": "william.harris28@gmail.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "dfc9b68c-309a-4065-94be-34fc78dd5d6b",
+            "assetName": "CPU",
+            "assetId": "CPU018",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "cceeaa12-ee61-43c1-bca0-e59ead0dbb69",
+                "firstName": "Sandra",
+                "lastName": "Torres",
+                "email": "karen.robinson19@company.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "e10acca3-f31a-4930-bdc3-d33ccae78c55",
+            "assetName": "CPU",
+            "assetId": "CPU011",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "912ee63d-f56c-4d7a-8411-7f4c8c104f3c",
+                "firstName": "Robert",
+                "lastName": "Sanchez",
+                "email": "matthew.allen64@gmail.com"
+            },
+            "assignedOn": "2023-05-01"
+        },
+        {
+            "id": "e5ce92a2-4ce9-4d6b-9cc7-01527dd1daaa",
+            "assetName": "CPU",
+            "assetId": "CPU004",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "81d48cb6-f0fa-472d-af5d-cce241f7e102",
+                "firstName": "Linda",
+                "lastName": "Moore",
+                "email": "sarah.rodriguez97@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "e83b75ea-e175-495f-9729-f1a9f5ab513f",
+            "assetName": "Laptop",
+            "assetId": "Lap12",
+            "status": 0,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "5cf533c1-4ed2-474d-a5b4-454d12f6f989",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "eef70a28-9756-4a0b-b351-ad145685e77e",
+            "assetName": "Laptop",
+            "assetId": "Lap09",
+            "status": 2,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "b7b43006-ec13-4f50-b329-ab772f1047ba",
+                "firstName": "Richard",
+                "lastName": "Jones",
+                "email": "donna.hill77@yahoo.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "f507f329-2590-464a-9f5e-46b9f9a9d335",
+            "assetName": "CPU",
+            "assetId": "CPU010",
+            "status": 2,
+            "assetCategoryId": "11bb657a-af3c-4726-82b2-84e605ab8058",
+            "assetTypeId": "a4594d7b-9809-434f-b610-cd8294717cd4",
+            "assetConditionId": "a6312f8a-4bbe-4399-b0f6-1022b666dac7",
+            "assignedTo": {
+                "id": "aa1195e6-51d4-40fd-9aab-547ba9bda4f2",
+                "firstName": "Lisa",
+                "lastName": "Taylor",
+                "email": "christopher.hernandez80@gmail.com"
+            },
+            "assignedOn": "2023-04-01"
+        },
+        {
+            "id": "f6774351-3bca-4999-a97d-972c926c4ebd",
+            "assetName": "Laptop",
+            "assetId": "Lap01",
+            "status": 1,
+            "assetCategoryId": "74023d9f-23bb-4936-980d-92073665e87e",
+            "assetTypeId": "49311a69-8329-465e-bf3b-f685e248eaa5",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": null,
+            "assignedOn": null
+        },
+        {
+            "id": "f82522d8-9f94-4115-8ab1-2ff5e9951c30",
+            "assetName": "Phone",
+            "assetId": "iPhone007",
+            "status": 2,
+            "assetCategoryId": "de15c5c1-7896-4f98-b31f-2a82676691f0",
+            "assetTypeId": "032f551d-be60-43ef-a2a4-6bce895942e1",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "03a30b5b-6676-4b31-9af8-c7c91f8501aa",
+                "firstName": "Susan",
+                "lastName": "Anderson",
+                "email": "margaret.wilson87@company.com"
+            },
+            "assignedOn": "2023-02-01"
+        },
+        {
+            "id": "f9dee568-9522-4f2c-b940-7109791f9d7f",
+            "assetName": "MAC",
+            "assetId": "MAC04",
+            "status": 2,
+            "assetCategoryId": "68580f05-60ec-44f7-a96d-3b12f364a6b3",
+            "assetTypeId": "848d3f2a-680e-4f71-a19d-2f3ced0f2042",
+            "assetConditionId": "808a0c09-9c02-4e94-a12c-c475b812b106",
+            "assignedTo": {
+                "id": "13e900e4-fdd4-4933-822c-47f8abcc0bb7",
+                "firstName": "Kimberly",
+                "lastName": "Ramirez",
+                "email": "matthew.gonzalez64@gmail.com"
+            },
+            "assignedOn": "2022-08-03"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/assets?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/assets?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 58,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

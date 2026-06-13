@@ -1,0 +1,35 @@
+{
+    "data": [
+        {
+            "id": "cbc03013-2e18-436b-81d0-986b1cdd0f65",
+            "name": "Attendance Tracking-US"
+        },
+        {
+            "id": "7a96ae8a-4083-4490-bbee-0b90d2d6ad1d",
+            "name": "Attendance Tracking Policy-SEA"
+        },
+        {
+            "id": "1deee235-55d3-41ca-93aa-720375cffbe2",
+            "name": "India - Attendance Tracking Policy"
+        },
+        {
+            "id": "490b8647-3b47-4f37-9218-20176ce26f6f",
+            "name": "ME- Attednance Tarcking policy"
+        },
+        {
+            "id": "2e51f2d3-4518-4097-a1e4-33dcc9294e19",
+            "name": "UK-Attendance Tracking Policy"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/penalisationpolicies?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/penalisationpolicies?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 7,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

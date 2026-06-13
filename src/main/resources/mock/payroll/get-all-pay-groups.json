@@ -1,0 +1,316 @@
+{
+    "data": [
+        {
+            "identifier": "0188e21d-ff60-4c0d-9403-97b68eec7182",
+            "name": "Default pay group",
+            "description": "This is the default pay group which is used for all payroll processing purposes",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "eacc4302-81f0-4d3e-ae94-9e2907420f16",
+            "name": "Woodstock School",
+            "description": "Woodstock School",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "796d4a84-e13b-471c-8891-afec4791bcd4",
+            "name": "Scania High School",
+            "description": "2",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "055830df-1b2c-459f-b46e-addf2f95f411",
+            "name": "Contractors",
+            "description": "No Paygroup",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "98854900-78a2-45a7-9696-56a12159b385",
+            "name": "Kapila International School",
+            "description": "Kapila Tenant",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "0606d40f-7a8b-45d3-9bff-a015d87892fe",
+            "name": "Blue color workers",
+            "description": "Cycle dates",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "d82fb4c5-7be1-4c25-8d39-8f057637a9a5",
+            "name": "Ashwadama IIT",
+            "description": "Income Tax",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "9caae0fe-0b61-4736-911d-39dbfcec23f0",
+            "name": "Dhrona International School",
+            "description": "Surcharge %",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "8cdf83d9-8325-410f-8d53-bb1fc3f50ddf",
+            "name": "Stage Testing",
+            "description": "Stage Testing",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "d5f8ae60-558e-44a1-a1b2-3bdaecf7c845",
+            "name": "Labour welfare fund",
+            "description": "This is me doing something",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "096d3683-31f2-483c-bf4e-3d7b0779d924",
+            "name": "Ludo Group",
+            "description": "Ludo Group",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "edc1cf34-ae44-4bb7-bbf6-80321ce4a498",
+            "name": "Optikare",
+            "description": "Optikare",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "0faa03a3-8db1-4a81-ae58-2713c24a2bc5",
+            "name": "Exit Changes",
+            "description": "Exit FnF",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "ff72f2ff-dd39-429e-b5db-3d40a8c14e31",
+            "name": "FnF",
+            "description": "FnF",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "b8712d90-0a8a-422a-ac56-3ae3660ca7a7",
+            "name": "PF off",
+            "description": "PF off",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "21ff887e-2634-4f0b-8d56-5120ae24def2",
+            "name": "vasanth",
+            "description": "ds",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "d97345a0-dd86-4ae6-a82d-01492f5064f5",
+            "name": "New Paygroup",
+            "description": "Paygroup",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "041fb1fe-70b9-4290-ad73-947b265b69d4",
+            "name": "Perks Tax Testing",
+            "description": "Testing cheyali bro",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "862f5839-4939-4ca5-a713-2db2526b4fc4",
+            "name": "Perks Tax Testing 2",
+            "description": "For testing employer tax on perks",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "1ca7cea9-2677-4027-9082-bea1e6f353cf",
+            "name": "Config Testing",
+            "description": "asdfg",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "dd2c4f6a-f6a9-4ae8-b851-a0bbcf40e9d5",
+            "name": "FnF Settlement",
+            "description": "FnF Settlement",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "fd524e1c-1b89-4def-86e1-176c6677dd01",
+            "name": "UX Design Team",
+            "description": "Running payroll for the Design team",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "3ff2032d-42b2-4849-b4a9-0ec6e3e82ebc",
+            "name": "Paygroup - SP",
+            "description": "Paygroup - SP",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "c60e1c9d-862b-4775-a3ed-159e511cef2e",
+            "name": "infra test",
+            "description": "fgh",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "87354b22-8254-42aa-a840-d549bde38e5d",
+            "name": "test payroll run",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "77ebe842-a74e-46c7-a904-c2e005624caa",
+            "name": "Testing events",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "d3d55cd3-e825-448b-b869-8cdc11961d42",
+            "name": "Arnab Sarkar error testing",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "cdf6b9f8-4ca0-49a8-aaa3-c6de647f492f",
+            "name": "XYZ",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "182f2121-f88f-4001-8ae6-c9c9a0bc9166",
+            "name": "Woodstock School_Clone",
+            "description": "Woodstock School",
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "a32267e0-6026-41ee-a6a2-f2960caed686",
+            "name": "Paysliip",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "804a46f4-72c9-44ef-9e8b-8d3755cecfa9",
+            "name": "sa",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "0ce3e0b4-acfc-4833-ae94-77d1bf857af5",
+            "name": "ABRY123",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "b85aaa3d-9f22-44d6-88d2-c090fd28144f",
+            "name": "warsfdx",
+            "description": null,
+            "legalEntityId": "346d9fb9-df32-4f17-84ef-b728e014425d",
+            "legalEntityName": "Viswas"
+        },
+        {
+            "identifier": "be5b206d-e1b1-4817-a616-f95bb1216e95",
+            "name": "Kia Motors",
+            "description": "kia",
+            "legalEntityId": "cd04c893-9184-498a-b957-8769de307928",
+            "legalEntityName": "Firefox"
+        },
+        {
+            "identifier": "5d5c7878-1b87-4c69-a9ab-7224006bd895",
+            "name": "Guruvaram",
+            "description": "er",
+            "legalEntityId": "cd04c893-9184-498a-b957-8769de307928",
+            "legalEntityName": "Firefox"
+        },
+        {
+            "identifier": "9c11c25e-4665-4d91-a2da-0d3c7249d9b9",
+            "name": "SS",
+            "description": null,
+            "legalEntityId": "cd04c893-9184-498a-b957-8769de307928",
+            "legalEntityName": "Firefox"
+        },
+        {
+            "identifier": "3857c65f-61ed-4bbd-8dad-c1e330bbd7c0",
+            "name": "ASAsasfszdca",
+            "description": null,
+            "legalEntityId": "cd04c893-9184-498a-b957-8769de307928",
+            "legalEntityName": "Firefox"
+        },
+        {
+            "identifier": "a133a9ca-0876-4bb0-b90b-aa13a2fc39bd",
+            "name": "Flexi Benefit Plan",
+            "description": "FBP",
+            "legalEntityId": "9873b4ee-097a-43d7-b55c-7663fd989387",
+            "legalEntityName": "LE"
+        },
+        {
+            "identifier": "6a0c13b7-46be-445f-8233-7f5cce8ebcd8",
+            "name": "Flexi 2",
+            "description": "Flexi 2",
+            "legalEntityId": "9873b4ee-097a-43d7-b55c-7663fd989387",
+            "legalEntityName": "LE"
+        },
+        {
+            "identifier": "00efd6c6-3d68-4587-889a-e4b96020f33e",
+            "name": "Hello World",
+            "description": "Yo whats up",
+            "legalEntityId": "9873b4ee-097a-43d7-b55c-7663fd989387",
+            "legalEntityName": "LE"
+        },
+        {
+            "identifier": "0e8201d3-4fea-4240-9ce2-270a490899d8",
+            "name": "Dubai",
+            "description": null,
+            "legalEntityId": "51fb71ed-7965-4a17-95a2-0fa01ba709df",
+            "legalEntityName": "Dubai"
+        },
+        {
+            "identifier": "da08f845-1e89-4c9c-b7c8-db3788608bf1",
+            "name": "PJK Group 01",
+            "description": null,
+            "legalEntityId": "52c6f74e-25b4-49f2-8909-93b0cda329cc",
+            "legalEntityName": "Pranav"
+        },
+        {
+            "identifier": "2a4fbb82-e98b-418c-b644-6d267e709c85",
+            "name": "Singapore pay runs",
+            "description": null,
+            "legalEntityId": "efdea142-4de6-4851-a2a0-91643822397a",
+            "legalEntityName": "Singapore Demo Pte Ltd"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/payroll/paygroups?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/payroll/paygroups?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 43,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

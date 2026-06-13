@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": "b8cae2b5-f885-ef11-8474-6045bdcf1f95",
+            "candidateId": "58261e21-89f5-4bde-bb39-ce02b9d30863",
+            "firstName": "Charles",
+            "middleName": null,
+            "lastName": "Scott",
+            "status": 1,
+            "bgvDecision": 0,
+            "email": "joseph.davis54@outlook.com",
+            "mobileNumber": null,
+            "gender": 1,
+            "checks": [
+                {
+                    "id": "92bee624-7c7e-4d8a-b674-28f8e024d45e",
+                    "name": "Custom Verifier 3",
+                    "count": 1
+                },
+                {
+                    "id": "e91bb9c5-1e90-4da9-a759-df291df52c4d",
+                    "name": "Elite Verifier",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "id": "b9cae2b5-f885-ef11-8474-6045bdcf1f95",
+            "candidateId": "b12850d7-3607-4762-ad39-3059d8e97ac0",
+            "firstName": "Donald",
+            "middleName": null,
+            "lastName": "Jones",
+            "status": 1,
+            "bgvDecision": 0,
+            "email": "sarah.rodriguez57@yahoo.com",
+            "mobileNumber": null,
+            "gender": 1,
+            "checks": [
+                {
+                    "id": "92bee624-7c7e-4d8a-b674-28f8e024d45e",
+                    "name": "Custom Verifier 3",
+                    "count": 1
+                },
+                {
+                    "id": "e91bb9c5-1e90-4da9-a759-df291df52c4d",
+                    "name": "Elite Verifier",
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hris/bgv/792a7e86-3cdc-4561-94c0-ba124df90acb/requests?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hris/bgv/792a7e86-3cdc-4561-94c0-ba124df90acb/requests?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 2,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "id": "8d7cb5dc-6102-4030-b050-a3859e9f1641",
+            "candidateId": "50ca8e28-5c41-413a-b32b-656ab8ccd76a",
+            "jobId": "aK18xxncUqxw",
+            "interviewDate": "2023-10-27T00:00:00",
+            "startTime": {
+                "hours": 12,
+                "minutes": 0
+            },
+            "endTime": {
+                "hours": 13,
+                "minutes": 0
+            },
+            "timeZoneId": "India Standard Time",
+            "scheduledBy": "paul34@gmail.com",
+            "scheduledDate": "2023-10-26T06:23:01",
+            "interviewType": "1",
+            "stageId": "9775d3e2-7318-4a3a-b939-afe345ada1cc",
+            "panelMembers": "Almech Vishal"
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/hire/jobs/aK18xxncUqxw/candidate/50ca8e28-5c41-413a-b32b-656ab8ccd76a/interviews?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/hire/jobs/aK18xxncUqxw/candidate/50ca8e28-5c41-413a-b32b-656ab8ccd76a/interviews?pageNumber=1&pageSize=100",
+    "nextPage": null,
+    "previousPage": null,
+    "totalRecords": 1,
+    "totalPages": 1,
+    "status": 200,
+    "succeeded": true,
+    "message": "Success",
+    "errors": null
+}

@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "id": "d1e9ad56ab364526968ab117c456fe51",
+            "employeeIdentifier": "c5e1a9ee-3753-4a32-aaa1-0a31c5d30c74",
+            "employeeNumber": "100111",
+            "fromDate": "2023-09-14T00:00:00Z",
+            "toDate": "2023-09-19T00:00:00Z",
+            "fromSession": 1,
+            "toSession": 0,
+            "requestedOn": "2023-09-14T15:59:51.5Z",
+            "note": "llp",
+            "status": 0,
+            "selection": [
+                {
+                    "leaveTypeIdentifier": "dc849b8a-a8b9-496d-8dfc-5ff5818e91c0",
+                    "leaveTypeName": "Unpaid Leave",
+                    "count": 3,
+                    "duration": {
+                        "unit": 2,
+                        "duration": 3,
+                        "getString": "3 days"
+                    }
+                }
+            ]
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/time/leaverequests?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/time/leaverequests?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 1,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}

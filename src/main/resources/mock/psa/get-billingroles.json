@@ -1,0 +1,111 @@
+{
+    "data": [
+        {
+            "id": "12a63383-af6b-4ef7-a4cd-063e5a6acb88",
+            "name": "SDE II - Android",
+            "billingRate": {
+                "unit": 0,
+                "rate": 180
+            }
+        },
+        {
+            "id": "2490036d-e1e2-4f32-88ac-63bc83bff821",
+            "name": "SDE II - Backend",
+            "billingRate": {
+                "unit": 0,
+                "rate": 150
+            }
+        },
+        {
+            "id": "3a3089c4-a245-4184-ace0-913b2a9414f7",
+            "name": "Senior UX Designer",
+            "billingRate": {
+                "unit": 0,
+                "rate": 150
+            }
+        },
+        {
+            "id": "4cc56405-141f-4475-907f-629b9d22c413",
+            "name": "UI/UX",
+            "billingRate": {
+                "unit": 0,
+                "rate": 50
+            }
+        },
+        {
+            "id": "5c6df049-8feb-4cea-a02e-becca973ed60",
+            "name": "Mulesoft Dev",
+            "billingRate": {
+                "unit": 0,
+                "rate": 40
+            }
+        },
+        {
+            "id": "5f497651-5736-4386-8253-a0c7c2be99ab",
+            "name": "QA Engineer",
+            "billingRate": {
+                "unit": 0,
+                "rate": 120
+            }
+        },
+        {
+            "id": "63bdfc88-a8dc-45f2-a90b-f71229dedfbf",
+            "name": "New role test",
+            "billingRate": {
+                "unit": 0,
+                "rate": 40
+            }
+        },
+        {
+            "id": "64baa1b2-0c6a-4021-9026-3e84551a9252",
+            "name": "Scrum Master",
+            "billingRate": {
+                "unit": 0,
+                "rate": 180
+            }
+        },
+        {
+            "id": "93626129-df47-492e-b326-2d69541363d0",
+            "name": "SDE I - Backend",
+            "billingRate": {
+                "unit": 0,
+                "rate": 130
+            }
+        },
+        {
+            "id": "b2a93a3a-effc-44b4-adf2-65be26acd12b",
+            "name": "Engagement Manager",
+            "billingRate": {
+                "unit": 0,
+                "rate": 500
+            }
+        },
+        {
+            "id": "b4d17726-8e15-4e01-a433-a071d7b2a14c",
+            "name": "SDE I - Android",
+            "billingRate": {
+                "unit": 0,
+                "rate": 120
+            }
+        },
+        {
+            "id": "f3f84653-24a8-4182-8847-ac963d363dc5",
+            "name": "Lead QA",
+            "billingRate": {
+                "unit": 0,
+                "rate": 150
+            }
+        }
+    ],
+    "pageNumber": 1,
+    "pageSize": 100,
+    "firstPage": "https://api.samardash.com/mock/api/v1/psa/clients/1c4f9c58-2db6-49d0-8030-717b8227840c/billingroles?pageNumber=1&pageSize=100",
+    "lastPage": "https://api.samardash.com/mock/api/v1/psa/clients/1c4f9c58-2db6-49d0-8030-717b8227840c/billingroles?pageNumber=1&pageSize=100",
+    "totalPages": 1,
+    "totalRecords": 12,
+    "nextPage": null,
+    "previousPage": null,
+    "succeeded": true,
+    "message": null,
+    "errors": null
+}
