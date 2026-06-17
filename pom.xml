@@ -22,7 +22,7 @@
         <spring-cloud.version>2025.1.2</spring-cloud.version>
         <maven-shade-plugin.version>3.6.2</maven-shade-plugin.version>
         <lombok.version>1.18.46</lombok.version>
-        <aws-serverless-java-container-springboot4.version>3.0.1</aws-serverless-java-container-springboot4.version>
+        <aws-serverless-java-container-springboot4.version>3.0.2</aws-serverless-java-container-springboot4.version>
         <aws-lambda-java-core.version>1.4.0</aws-lambda-java-core.version>
         <spring-cloud-aws.version>4.0.2</spring-cloud-aws.version>
         <logback.version>1.5.34</logback.version>
