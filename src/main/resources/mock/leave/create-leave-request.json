@@ -1,8 +1,0 @@
-{
-    "data": null,
-    "succeeded": false,
-    "message": "An Error Occured",
-    "errors": [
-        "There is not enough leave balance for Sick Leave."
-    ]
-}
