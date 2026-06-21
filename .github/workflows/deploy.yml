@@ -1,4 +1,4 @@
-name: Build and Upload JAR to S3 (OIDC), Deploy to Lambda
+name: Deploy Hello World Stack
 
 on:
   push:
@@ -37,92 +37,60 @@ jobs:
           role-to-assume: arn:aws:iam::897729105223:role/GitHubOIDCDeployRole
           aws-region: eu-west-1
 
-      - name: Upload to S3
+      - name: Deploy with SAM
         run: |
-          JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
-          cp target/spring-lambda-hello-1.0.0-SNAPSHOT.jar target/$JAR_NAME
-          aws s3 cp target/$JAR_NAME s3://maven-releases-897729105223-eu-west-1/builds/
+          sam deploy \
+            --template-file template.yaml \
+            --stack-name spring-lambda-hello-world-stack \
+            --s3-bucket shared-deployment-artifacts-897729105223-eu-west-1 \
+            --s3-prefix spring-lambda-hello-world \
+            --capabilities CAPABILITY_NAMED_IAM \
+            --no-confirm-changeset \
+            --no-fail-on-empty-changeset
 
-      - name: Deploy Lambda with Validation
+      - name: Health Check
         run: |
-          JAR_NAME="spring-lambda-hello-1.0.${{ github.run_number }}.jar"
+          echo "Waiting for API Gateway to propagate..."
+          sleep 10
           
-          # Update function code
-          aws lambda update-function-code \
-            --function-name spring-lambda-hello \
-            --s3-bucket maven-releases-897729105223-eu-west-1 \
-            --s3-key builds/$JAR_NAME
+          echo "Running Health Check on the new version..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://api.samardash.com/actuator/health)
           
-          # Wait for update to complete
-          aws lambda wait function-updated \
-            --function-name spring-lambda-hello
+          if [ "$HTTP_STATUS" -ne 200 ]; then
+            echo "Health Check Failed! Status Code: $HTTP_STATUS"
+            echo "Warning: SAM has already shifted traffic to the new version. Rollback required."
+            exit 1
+          else
+            echo "Health Check Passed! Status Code: $HTTP_STATUS"
+          fi
+
+      - name: Cleanup S3 and Old Lambda Versions
+        if: success()
+        run: |
+          echo "Cleaning up old Lambda versions..."
           
-          # Update runtime to Java 25
-          aws lambda update-function-configuration \
-            --function-name spring-lambda-hello \
-            --runtime java25
-          
-          # Wait for configuration update to complete
-          aws lambda wait function-updated \
-            --function-name spring-lambda-hello
-          
-          # Publish new version
-          VERSION=$(aws lambda publish-version \
-            --function-name spring-lambda-hello \
-            --description "Build ${{ github.run_number }}" \
-            --query 'Version' --output text)
-          
-          # Wait for version to be active
-          aws lambda wait function-active-v2 \
-            --function-name spring-lambda-hello:$VERSION
-          
-          # Test the new version
-          aws lambda invoke \
-            --function-name spring-lambda-hello:$VERSION \
-            --cli-binary-format raw-in-base64-out \
-            --payload '{"resource":"/actuator/health","path":"/actuator/health","httpMethod":"GET","requestContext":{"resourcePath":"/actuator/health","httpMethod":"GET","requestId":"test-123","identity":{"sourceIp":"127.0.0.1"}},"isBase64Encoded":false}' \
-            response.json
-          
-          # Only if test passes, update alias and cleanup
-          if [ $? -eq 0 ]; then
-            echo "Version $VERSION validation passed, updating alias..."
-            aws lambda update-alias \
-              --function-name spring-lambda-hello \
-              --name dev \
-              --function-version $VERSION
-            echo "Deployed version $VERSION to dev alias"
+          LIVE_VERSION=$(aws lambda get-alias \
+            --function-name spring-lambda-hello-world \
+            --name dev \
+            --query 'FunctionVersion' --output text || echo "")
             
-            # Immediate cleanup after successful deployment
-            echo "Health check passed - cleaning up all versions and JARs..."
-            
-            # Delete all old Lambda versions (keep only $LATEST + current alias version)
+          if [ -n "$LIVE_VERSION" ]; then
             aws lambda list-versions-by-function \
-              --function-name spring-lambda-hello \
+              --function-name spring-lambda-hello-world \
               --query 'Versions[?Version!=`$LATEST`].Version' \
               --output text | \
             tr '\t' '\n' | \
             while read old_version; do
-              if [ "$old_version" != "$VERSION" ]; then
+              if [ "$old_version" != "$LIVE_VERSION" ] && [ -n "$old_version" ]; then
                 echo "Deleting Lambda version: $old_version"
                 aws lambda delete-function \
-                  --function-name spring-lambda-hello:$old_version
+                  --function-name spring-lambda-hello-world:$old_version || true
               fi
             done
-            
-            # Delete ALL JAR files from S3 (no need to keep any after deployment)
-            aws s3api list-objects-v2 \
-              --bucket maven-releases-897729105223-eu-west-1 \
-              --prefix builds/spring-lambda-hello- \
-              --query 'Contents[?ends_with(Key, `.jar`)].Key' \
-              --output text | \
-            tr '\t' '\n' | \
-            while read jar_file; do
-              echo "Deleting JAR: $jar_file"
-              aws s3 rm "s3://maven-releases-897729105223-eu-west-1/$jar_file"
-            done
-            
-            echo "Cleanup completed - Lambda has $LATEST + version $VERSION, S3 cleared"
-          else
-            echo "Version $VERSION failed validation"
-            exit 1
           fi
+          
+          echo "Cleaning up S3 staging area..."
+          aws s3 rm s3://shared-deployment-artifacts-897729105223-eu-west-1/spring-lambda-hello-world/ --recursive || true
+          
+          echo "Setting CloudWatch Log retention to 1 day..."
+          aws logs put-retention-policy --log-group-name /aws/lambda/spring-lambda-hello-world --retention-in-days 1 || true

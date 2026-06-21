@@ -1,0 +1,65 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Spring Lambda Hello World API
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 512
+    Runtime: java25
+
+Resources:
+  SpringLambdaHelloWorldRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: spring-lambda-hello-world-execution-role
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+
+  SpringLambdaHelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: spring-lambda-hello-world
+      Architectures:
+        - arm64
+      CodeUri: target/spring-lambda-hello-world-1.0.0-SNAPSHOT.jar
+      Handler: com.samardash.lambda.LambdaHandler::handleRequest
+      Role: !GetAtt SpringLambdaHelloWorldRole.Arn
+      AutoPublishAlias: dev
+      SnapStart:
+        ApplyOn: PublishedVersions
+      Environment:
+        Variables:
+          SPRING_PROFILES_ACTIVE: dev
+      Events:
+        ProxyApi:
+          Type: HttpApi
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+            PayloadFormatVersion: '1.0'
+            ApiId: !Ref SpringLambdaHelloWorldHttpApi
+
+  SpringLambdaHelloWorldHttpApi:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      Description: "API Gateway for Spring Lambda Hello World function"
+      StageName: dev
+      Domain:
+        DomainName: api.samardash.com
+        CertificateArn: arn:aws:acm:eu-west-1:897729105223:certificate/5d09b88a-d04f-49cd-8b24-3e87ff5a4e4c
+        EndpointConfiguration: REGIONAL
+        Route53:
+          HostedZoneName: samardash.com.
+
+Outputs:
+  CustomDomainUrl:
+    Description: "Custom Domain URL"
+    Value: "https://api.samardash.com/"
