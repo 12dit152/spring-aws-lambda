@@ -6,6 +6,7 @@ on:
     paths:
       - 'src/**'
       - 'pom.xml'
+      - 'template.yaml'
   workflow_dispatch:  # enables manual trigger
 
 permissions:
