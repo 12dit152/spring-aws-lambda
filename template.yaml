@@ -28,6 +28,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: spring-lambda-hello-world
+      Description: REST API demonstrating Spring Boot on AWS Lambda with SAM
       Architectures:
         - arm64
       CodeUri: target/spring-lambda-hello-world-1.0.0-SNAPSHOT.jar
