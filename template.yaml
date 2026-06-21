@@ -12,7 +12,7 @@ Resources:
   SpringLambdaHelloWorldRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: spring-lambda-hello-world-execution-role
+      RoleName: spring-lambda-hello-world-lambda-execution-role
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
