@@ -37,7 +37,7 @@ jobs:
         run: mvn clean package -DskipTests
 
       - name: Configure AWS credentials (OIDC)
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::897729105223:role/GitHubOIDCDeployRole
           aws-region: eu-west-1
